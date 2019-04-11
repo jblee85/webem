@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ko">
+  	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>ESS</title>
+	<link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.png">
+	<link href="resources/css/bootstrap.min.css" rel="stylesheet">
+	<link href="resources/css/ess.css" rel="stylesheet">
+
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+   
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  	</head>
+  	
+	<body>
+	<div class="Wrap">
+		<!-- Fixed navbar -->
+			<nav class="navbar navbar-fixed-top ng-scope">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h2 class="form-signin-heading"><a class="logo" href="index.html">ICE EM</a></h2>
+					</div>
+			
+					<div id="navbar" class="collapse navbar-collapse ng-scope" ng-controller="header_ctrl">
+						<ul class="nav navbar-nav">
+							<li ng-class="{ active: isActive('/dashboard')}" class=""><a ui-sref="dashboard" href="index.html">대시보드</a></li>
+			
+							<li class="dropdown active" ng-class="{ active: isActive('/pcsStats')}">
+								<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PCS<span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a ui-sref="pcsStats" href="sub1.html">PCS 전체</a></li>
+									<li><a href="">PCS 개별 상세</a></li>
+								</ul>
+							</li>
+							<li ng-class="{ active: isActive('/board')}"><a ui-sref="board" href="sub2.html">BMS</a></li>
+							<li ng-class="{ active: isActive('/board')}"><a ui-sref="board" href="sub3.html">스케쥴</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="time">2017년 5월 4일 16<b class="blink">:</b>10<b class="blink">:</b>00</li>
+							<li class="set"><a href="set.html" ng-click="myInfo();">관리자 관리자님<b></b></a></li>
+							<li><a href="login.html"  ng-click="logout();">로그아웃</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right status">
+							<li class="conect">delay</li>
+							<li class="error"><b>3</b></li>
+							<li class="weather"><i class="cloud"></i></li>
+							<li>peak cut</li>
+						</ul>
+						<ul class="navbar-nav sidenav-toggler">
+							<li class="nav-item">
+								<a class="nav-link text-center hide" id="sidenavToggler">
+									<i></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		<!-- //Fixed navbar -->
+		<!-- container main -->
+		<div class="container-fluid essContent">
+		<div class="row">
+			<div class="col-lg-10 col-md-12 essdashBoard">
+				<div class="svgWrap">
+					<div role="tabpanel">
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active"><a href="#realManage" aria-controls="realManage" role="tab" data-toggle="tab">실시간운영현황</a></li>
+							<li role="presentation"><a href="#pbManage" aria-controls="pbManage" role="tab" data-toggle="tab">PCS BMS 운영현황</a></li>
+						</ul>
+						<!-- Tab panes -->
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="realManage">
+								<div class="svg realSvgWrap">
+									<img src="resources/svg/SVG2.svg" >
+								</div>
+								<div class="board shadow">
+									<h3>동월 동일 전력 사용 이력</h3>
+									<ul>
+										<li>
+											<i></i>
+											<h4>Peak Power </h4>
+											<b>1,000 <span>kW</span></b>
+										</li>
+										<li>
+											<i></i>
+											<h4>Peak Time</h4>
+											<b>14:00</b>
+										</li>
+									</ul>
+								</div>
+								<div class="boardDetail">
+									<ul>
+										<li class="grid">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<colgroup>
+													<col width="20" />
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+												</colgroup>
+												<tr>
+													<th>&nbsp;</th>
+													<th>R</th>
+													<th>S</th>
+													<th>T</th>
+												</tr>
+												<tr>
+													<td>V</td>
+													<td>4512.12</td>
+													<td>4512.45</td>
+													<td>4512.11</td>
+												</tr>
+												<tr>
+													<td>A</td>
+													<td>1254.1</td>
+													<td>99.999</td>
+													<td>999999</td>
+												</tr>
+											</table>
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<colgroup>
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+												</colgroup>
+												<tr>
+													<th>451.152</th>
+													<td>451.152</td>
+													<th>451.152</th>
+													<td>451.152</td>
+												</tr>
+												<tr>
+													<th>451.152</th>
+													<td>451.152</td>
+													<th>451.152</th>
+													<td>451.152</td>
+												</tr>
+											</table>
+										</li>
+										<li class="sun">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<colgroup>
+													<col width="20" />
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+												</colgroup>
+												<tr>
+													<th>&nbsp;</th>
+													<th>R</th>
+													<th>S</th>
+													<th>T</th>
+												</tr>
+												<tr>
+													<td>V</td>
+													<td>4512.12</td>
+													<td>4512.45</td>
+													<td>4512.11</td>
+												</tr>
+												<tr>
+													<td>A</td>
+													<td>1254.1</td>
+													<td>99.999</td>
+													<td>999999</td>
+												</tr>
+											</table>
+											
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<colgroup>
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+												</colgroup>
+												<tr>
+													<th>451.152</th>
+													<td>451.152</td>
+													<th>451.152</th>
+													<td>451.152</td>
+												</tr>
+												<tr>
+													<th>451.152</th>
+													<td>451.152</td>
+													<th>451.152</th>
+													<td>451.152</td>
+												</tr>
+											</table>
+										</li>
+										<li class="pcs">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<colgroup>
+													<col width="20" />
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+												</colgroup>
+												<tr>
+													<th>&nbsp;</th>
+													<th>R</th>
+													<th>S</th>
+													<th>T</th>
+												</tr>
+												<tr>
+													<td>V</td>
+													<td>4512.12</td>
+													<td>4512.45</td>
+													<td>4512.11</td>
+												</tr>
+												<tr>
+													<td>A</td>
+													<td>1254.1</td>
+													<td>99.999</td>
+													<td>999999</td>
+												</tr>
+											</table>
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<colgroup>
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+												</colgroup>
+												<tr>
+													<th>451.152</th>
+													<td>451.152</td>
+													<th>451.152</th>
+													<td>451.152</td>
+												</tr>
+												<tr>
+													<th>451.152</th>
+													<td>451.152</td>
+													<th>451.152</th>
+													<td>451.152</td>
+												</tr>
+											</table>
+										</li>
+										<li class="bat">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<colgroup>
+													<col width="20" />
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+												</colgroup>
+												<tr>
+													<th>&nbsp;</th>
+													<th>R</th>
+													<th>S</th>
+													<th>T</th>
+												</tr>
+												<tr>
+													<td>V</td>
+													<td>4512.12</td>
+													<td>4512.45</td>
+													<td>4512.11</td>
+												</tr>
+												<tr>
+													<td>A</td>
+													<td>1254.1</td>
+													<td>99.999</td>
+													<td>999999</td>
+												</tr>
+											</table>
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<colgroup>
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+													<col width="100" />
+												</colgroup>
+												<tr>
+													<th>451.152</th>
+													<td>451.152</td>
+													<th>451.152</th>
+													<td>451.152</td>
+												</tr>
+												<tr>
+													<th>451.152</th>
+													<td>451.152</td>
+													<th>451.152</th>
+													<td>451.152</td>
+												</tr>
+											</table>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="pbManage">
+																	아오 아오아오 아아아오
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="powerWrap bBox">
+							<h4>소비전력</h4>
+							<div class="highcharts-container" id="highcharts-0" style="position: relative; overflow: hidden; width: 330px; height: 170px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;"><svg version="1.1" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="330" height="170"><desc>Created with Highcharts 4.1.6</desc><defs><clipPath id="highcharts-1"><rect x="0" y="0" width="246" height="62"></rect></clipPath></defs><g class="highcharts-grid" zIndex="1"></g><g class="highcharts-grid" zIndex="1"><path fill="none" d="M 74 72.5 L 320 72.5" stroke="#D8D8D8" stroke-width="1" zIndex="1" opacity="1"></path><path fill="none" d="M 74 9.5 L 320 9.5" stroke="#D8D8D8" stroke-width="1" zIndex="1" opacity="1"></path></g><g class="highcharts-axis" zIndex="2"><path fill="none" d="M 76.5 72 L 76.5 82" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 101.5 72 L 101.5 82" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 125.5 72 L 125.5 82" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 150.5 72 L 150.5 82" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 174.5 72 L 174.5 82" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 199.5 72 L 199.5 82" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 224.5 72 L 224.5 82" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 248.5 72 L 248.5 82" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 273.5 72 L 273.5 82" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 297.5 72 L 297.5 82" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 74 72.5 L 320 72.5" stroke="#C0D0E0" stroke-width="1" zIndex="7" visibility="visible"></path></g><g class="highcharts-axis" zIndex="2"><text x="28.09375" zIndex="7" text-anchor="middle" transform="translate(0,0) rotate(270 28.09375 41)" class=" highcharts-yaxis-title" style="color:#707070;fill:#707070;" visibility="visible" y="41"><tspan>I-SMART  [단위 : kWh]</tspan></text></g><path fill="none" d="M 218.5 10 L 218.5 72" stroke="rgba(155,200,255,0.2)" stroke-width="6.15" zIndex="2" visibility="hidden"></path><g class="highcharts-series-group" zIndex="3"><path fill="rgba(255,53,53,0.25)" d="M 0 0"></path><g class="highcharts-series" visibility="visible" zIndex="0.1" transform="translate(74,10) scale(1 1)" clip-path="url(#highcharts-1)"><path fill="none" d="M 3.075 44.826 C 3.075 44.826 6.765000000000001 42.659099999999995 9.225000000000001 42.659099999999995 C 11.685 42.659099999999995 12.915000000000001 46.5651 15.375 46.5651 C 17.835 46.5651 19.065 44.578 21.525000000000002 44.2215 C 23.985000000000003 43.864999999999995 25.215000000000003 43.864999999999995 27.675 43.864999999999995 C 30.135 43.864999999999995 31.365000000000002 46.7325 33.825 46.7325 C 36.285000000000004 46.7325 37.51500000000001 45.415 39.97500000000001 45.415 C 42.43500000000001 45.415 43.665000000000006 49.4543 46.12500000000001 49.4667 C 48.58500000000001 49.4791 49.81500000000001 49.4667 52.275000000000006 49.4791 C 54.735 49.4915 55.96500000000001 49.4791 58.425000000000004 50.2603 C 60.885000000000005 51.0415 62.11500000000001 55.1149 64.575 55.1149 C 67.03500000000001 55.1149 68.26500000000001 48.9211 70.72500000000001 48.9211 C 73.18500000000002 48.9211 74.415 49.41709999999999 76.87500000000001 50.6044 C 79.33500000000001 51.79169999999999 80.56500000000001 54.8576 83.025 54.8576 C 85.48500000000001 54.8576 86.715 50.0588 89.17500000000001 50.0588 C 91.63500000000002 50.0588 92.86500000000001 52.8271 95.325 52.8271 C 97.78500000000001 52.8271 99.01500000000001 50.148700000000005 101.47500000000001 50.148700000000005 C 103.93500000000002 50.148700000000005 105.165 52.88290000000001 107.62500000000001 53.2394 C 110.08500000000001 53.5959 111.31500000000001 53.5959 113.775 53.5959 C 116.23500000000001 53.5959 117.465 49.5566 119.92500000000001 49.5566 C 122.38500000000002 49.5566 123.61500000000001 50.821400000000004 126.075 51.9777 C 128.535 53.134 129.765 55.3381 132.225 55.3381 C 134.685 55.3381 135.91500000000002 49.0544 138.375 49.0544 C 140.83499999999998 49.0544 142.065 52.1916 144.525 52.1916 C 146.985 52.1916 148.215 48.5863 150.675 48.5863 C 153.135 48.5863 154.365 51.218199999999996 156.825 51.218199999999996 C 159.285 51.218199999999996 160.515 51.042120000000004 162.975 49.634100000000004 C 165.435 48.22608 166.66500000000002 44.1781 169.125 44.1781 C 171.58499999999998 44.1781 172.815 46.221619999999994 175.275 46.9557 C 177.735 47.68978 178.965 47.042500000000004 181.425 47.8485 C 183.88500000000002 48.6545 185.11499999999998 49.82506 187.575 50.9857 C 190.035 52.146339999999995 191.265 53.6517 193.725 53.6517 C 196.185 53.6517 197.41500000000002 43.4961 199.875 43.4961 C 202.33499999999998 43.4961 203.565 49.2652 206.025 49.2652 C 208.48500000000004 49.2652 209.715 38.285 212.175 38.285 C 214.63500000000005 38.285 215.86499999999995 40.126400000000004 218.325 40.126400000000004 C 220.785 40.126400000000004 222.01499999999996 31.365800000000004 224.475 31.365800000000004 C 226.935 31.365800000000004 228.16500000000002 33.8768 230.625 33.8768 C 233.08499999999998 33.8768 234.315 30.2622 236.775 30.2622 C 239.23500000000004 30.2622 242.925 39.1003 242.925 39.1003" stroke="#ff3535" stroke-width="2" zIndex="1" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M -6.925 44.826 L 3.075 44.826 C 3.075 44.826 6.765000000000001 42.659099999999995 9.225000000000001 42.659099999999995 C 11.685 42.659099999999995 12.915000000000001 46.5651 15.375 46.5651 C 17.835 46.5651 19.065 44.578 21.525000000000002 44.2215 C 23.985000000000003 43.864999999999995 25.215000000000003 43.864999999999995 27.675 43.864999999999995 C 30.135 43.864999999999995 31.365000000000002 46.7325 33.825 46.7325 C 36.285000000000004 46.7325 37.51500000000001 45.415 39.97500000000001 45.415 C 42.43500000000001 45.415 43.665000000000006 49.4543 46.12500000000001 49.4667 C 48.58500000000001 49.4791 49.81500000000001 49.4667 52.275000000000006 49.4791 C 54.735 49.4915 55.96500000000001 49.4791 58.425000000000004 50.2603 C 60.885000000000005 51.0415 62.11500000000001 55.1149 64.575 55.1149 C 67.03500000000001 55.1149 68.26500000000001 48.9211 70.72500000000001 48.9211 C 73.18500000000002 48.9211 74.415 49.41709999999999 76.87500000000001 50.6044 C 79.33500000000001 51.79169999999999 80.56500000000001 54.8576 83.025 54.8576 C 85.48500000000001 54.8576 86.715 50.0588 89.17500000000001 50.0588 C 91.63500000000002 50.0588 92.86500000000001 52.8271 95.325 52.8271 C 97.78500000000001 52.8271 99.01500000000001 50.148700000000005 101.47500000000001 50.148700000000005 C 103.93500000000002 50.148700000000005 105.165 52.88290000000001 107.62500000000001 53.2394 C 110.08500000000001 53.5959 111.31500000000001 53.5959 113.775 53.5959 C 116.23500000000001 53.5959 117.465 49.5566 119.92500000000001 49.5566 C 122.38500000000002 49.5566 123.61500000000001 50.821400000000004 126.075 51.9777 C 128.535 53.134 129.765 55.3381 132.225 55.3381 C 134.685 55.3381 135.91500000000002 49.0544 138.375 49.0544 C 140.83499999999998 49.0544 142.065 52.1916 144.525 52.1916 C 146.985 52.1916 148.215 48.5863 150.675 48.5863 C 153.135 48.5863 154.365 51.218199999999996 156.825 51.218199999999996 C 159.285 51.218199999999996 160.515 51.042120000000004 162.975 49.634100000000004 C 165.435 48.22608 166.66500000000002 44.1781 169.125 44.1781 C 171.58499999999998 44.1781 172.815 46.221619999999994 175.275 46.9557 C 177.735 47.68978 178.965 47.042500000000004 181.425 47.8485 C 183.88500000000002 48.6545 185.11499999999998 49.82506 187.575 50.9857 C 190.035 52.146339999999995 191.265 53.6517 193.725 53.6517 C 196.185 53.6517 197.41500000000002 43.4961 199.875 43.4961 C 202.33499999999998 43.4961 203.565 49.2652 206.025 49.2652 C 208.48500000000004 49.2652 209.715 38.285 212.175 38.285 C 214.63500000000005 38.285 215.86499999999995 40.126400000000004 218.325 40.126400000000004 C 220.785 40.126400000000004 222.01499999999996 31.365800000000004 224.475 31.365800000000004 C 226.935 31.365800000000004 228.16500000000002 33.8768 230.625 33.8768 C 233.08499999999998 33.8768 234.315 30.2622 236.775 30.2622 C 239.23500000000004 30.2622 242.925 39.1003 242.925 39.1003 L 252.925 39.1003" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" zIndex="2" class=" highcharts-tracker" style=""></path></g><g class="highcharts-markers highcharts-tracker" visibility="visible" zIndex="0.1" transform="translate(74,10) scale(1 1)" clip-path="url(#highcharts-2)" style=""><path fill="#ff3535" d="M 144.525 46.1916 C 152.517 46.1916 152.517 58.1916 144.525 58.1916 C 136.53300000000002 58.1916 136.53300000000002 46.1916 144.525 46.1916 Z" stroke="#FFFFFF" stroke-width="1" visibility="hidden"></path></g></g><g class="highcharts-legend" zIndex="7" transform="translate(123,126)"><g zIndex="1"><g><g class="highcharts-legend-item" zIndex="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#ff3535" stroke-width="2"></path><path fill="#ff3535" d="M 8 7 C 13.328 7 13.328 15 8 15 C 2.6719999999999997 15 2.6719999999999997 7 8 7 Z"></path><text x="21" style="color:#333333;font-size:12px;font-weight:bold;cursor:pointer;fill:#333333;" text-anchor="start" zIndex="2" y="15">ISMART</text></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels" zIndex="7"><text x="79.66772486435067" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:170px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0) rotate(-45 79.66772486435067 88)" y="88" opacity="1"><tspan>00:00</tspan></text><text x="153.46772486435069" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:170px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0) rotate(-45 153.46772486435069 88)" y="88" opacity="1"><tspan>03:00</tspan></text><text x="227.2677248643507" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:170px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0) rotate(-45 227.2677248643507 88)" y="88" opacity="1"><tspan>06:00</tspan></text><text x="301.0677248643507" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:170px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0) rotate(-45 301.0677248643507 88)" y="88" opacity="1"><tspan>09:00</tspan></text><text x="104.26772486435067" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:170px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0) rotate(-45 104.26772486435067 88)" y="88" opacity="1"><tspan>01:00</tspan></text><text x="128.8677248643507" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:170px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0) rotate(-45 128.8677248643507 88)" y="88" opacity="1"><tspan>02:00</tspan></text><text x="178.0677248643507" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:170px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0) rotate(-45 178.0677248643507 88)" y="88" opacity="1"><tspan>04:00</tspan></text><text x="202.66772486435067" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:170px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0) rotate(-45 202.66772486435067 88)" y="88" opacity="1"><tspan>05:00</tspan></text><text x="251.8677248643507" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:170px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0) rotate(-45 251.8677248643507 88)" y="88" opacity="1"><tspan>07:00</tspan></text><text x="276.46772486435066" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:170px;text-overflow:ellipsis;" text-anchor="end" transform="translate(0,0) rotate(-45 276.46772486435066 88)" y="88" opacity="1"><tspan>08:00</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" zIndex="7"><text x="59" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:99px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="75" opacity="1">0</text><text x="59" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:99px;text-overflow:clip;" text-anchor="end" transform="translate(0,0)" y="13" opacity="1">200</text></g><g class="highcharts-tooltip" zIndex="8" style="cursor:default;padding:0;white-space:nowrap;" transform="translate(146,-9999)" opacity="0" visibility="visible"><path fill="none" d="M 10.5 0.5 L 66.5 0.5 72.5 -5.5 78.5 0.5 136 0.5 C 146.5 0.5 146.5 0.5 146.5 10.5 L 146.5 37.5 C 146.5 47.5 146.5 47.5 136.5 47.5 L 10.5 47.5 C 0.5 47.5 0.5 47.5 0.5 37.5 L 0.5 10.5 C 0.5 0.5 0.5 0.5 10.5 0.5" isShadow="true" stroke="black" stroke-opacity="0.049999999999999996" stroke-width="5" transform="translate(1, 1)" width="146" height="47"></path><path fill="none" d="M 10.5 0.5 L 66.5 0.5 72.5 -5.5 78.5 0.5 136 0.5 C 146.5 0.5 146.5 0.5 146.5 10.5 L 146.5 37.5 C 146.5 47.5 146.5 47.5 136.5 47.5 L 10.5 47.5 C 0.5 47.5 0.5 47.5 0.5 37.5 L 0.5 10.5 C 0.5 0.5 0.5 0.5 10.5 0.5" isShadow="true" stroke="black" stroke-opacity="0.09999999999999999" stroke-width="3" transform="translate(1, 1)" width="146" height="47"></path><path fill="none" d="M 10.5 0.5 L 66.5 0.5 72.5 -5.5 78.5 0.5 136 0.5 C 146.5 0.5 146.5 0.5 146.5 10.5 L 146.5 37.5 C 146.5 47.5 146.5 47.5 136.5 47.5 L 10.5 47.5 C 0.5 47.5 0.5 47.5 0.5 37.5 L 0.5 10.5 C 0.5 0.5 0.5 0.5 10.5 0.5" isShadow="true" stroke="black" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)" width="146" height="47"></path><path fill="#F6F6F6" d="M 10.5 0.5 L 66.5 0.5 72.5 -5.5 78.5 0.5 136 0.5 C 146.5 0.5 146.5 0.5 146.5 10.5 L 146.5 37.5 C 146.5 47.5 146.5 47.5 136.5 47.5 L 10.5 47.5 C 0.5 47.5 0.5 47.5 0.5 37.5 L 0.5 10.5 C 0.5 0.5 0.5 0.5 10.5 0.5" stroke="black" stroke-width="3"></path><text x="8" zIndex="1" style="font-size:12px;color:#333333;fill:#333333;" y="20"><tspan style="font-size: 10px">05:45</tspan><tspan style="fill:#ff3535" x="8" dy="15">●</tspan><tspan dx="0"> ISMART: </tspan><tspan style="font-weight:bold" dx="0">31.64 kWh</tspan></text></g><text x="320" text-anchor="end" zIndex="8" style="cursor:pointer;color:#909090;font-size:9px;fill:#909090;" y="165"></text></svg></div>
+						</div>
+					</div>
+					<div class="col-lg-2  col-md-6">
+						<div class="scheduleWrap bBox">
+							<h4>2018년2월29일 스케쥴</h4>
+							<div class="tableTop">
+								<span>시간</span><span>총/전량</span> 
+							</div>
+							<div class="tableCont">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<colgroup>
+										<col width="100">
+										<col width="10">
+										<col width="30">
+										<col width="30">
+									</colgroup>
+									<tr>
+										<td>09:00~12:00</td>
+										<td>+</td>
+										<td>1125</td>
+										<td>kWh</td>
+									</tr>
+									<tr class="before">
+										<td>09:00~12:00</td>
+										<td>+</td>
+										<td>1125</td>
+										<td>kWh</td>
+									</tr>
+									<tr class="now blink">
+										<td>09:00~12:00</td>
+										<td>+</td>
+										<td>100</td>
+										<td>kWh</td>
+									</tr>
+									<tr class="after">
+										<td>09:00~12:00</td>
+										<td>+</td>
+										<td>1522</td>
+										<td>kWh</td>
+									</tr>
+									<tr>
+										<td>09:00~12:00</td>
+										<td>+</td>
+										<td>1125</td>
+										<td>kWh</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6  col-md-12 dataWrap">
+					<div class="row">
+							<div class="col-md-3 col-xs-3">
+								<div class="wBox">
+									<i></i>
+									<b>2018.01</b>
+									<h5>금월계통피크</h5>
+									<p>1,113<span>kW</span></p>
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-3">
+								<div class="wBox">
+									<i></i>
+									<b>2018.01</b>
+									<h5>금월 예상 사용 전력</h5>
+									<p>8,113<span>kW</span></p>
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-3">
+								<div class="wBox">
+									<i></i>
+									<b>2018.01</b>
+									<h5>월 동월 사용량</h5>
+									<p>513<span>kW</span></p>
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-3">
+								<div class="wBox">
+									<i></i>
+									<b>2018.01</b>
+									<h5>전월 사용량</h5>
+									<p>1,783<span>kW</span></p>
+								</div>
+							</div>
+						</ul>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-12  essBoard">
+			<div class="row">
+				<div class="col-lg-12 col-md-3 ">
+					<div class="errorWrap bBox"">
+						<h4>장애현황</h4>
+						<div class="mdbtn listUp"></div>
+						<ul class="errorDeviceWrap">
+							<li>
+								<div class="errorDeviceName shadow">Pcs1</div>
+								<div class="errorDeviceCont">
+									<ul>
+										<li><span class="redFt">Fault</span></li>
+										<li>Batt Over Current</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="errorDeviceName shadow">Battery1</div>
+								<div class="errorDeviceCont">
+									<ul>
+										<li><span class="greenFt">Warn</span></li>
+										<li>Batt Over Current</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="errorDeviceName shadow">Pcs1</div>
+								<div class="errorDeviceCont">
+									<ul>
+										<li><span class="redFt">Fault</span></li>
+										<li>Batt Over Current</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="errorDeviceName shadow">Pcs1</div>
+								<div class="errorDeviceCont">
+									<ul>
+										<li><span class="redFt">Fault</span></li>
+										<li>Batt Over Current</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="errorDeviceName shadow">Pcs1</div>
+								<div class="errorDeviceCont">
+									<ul>
+										<li><span class="redFt">Fault</span></li>
+										<li>Batt Over Current</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="errorDeviceName shadow">Pcs1</div>
+								<div class="errorDeviceCont">
+									<ul>
+										<li><span class="redFt">Fault</span></li>
+										<li>Batt Over Current</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-6">
+					<div class="presentWrap bBox"">
+						<h4>편익예상요금-현재</h4>
+						<div class="mdbtn refrash"></div>
+						<ul>
+							<li><div>요금 종류</div><div>산업용(을) II</div></li>
+							<li><div>계약 전력</div><div>121 kW</div></li>
+							<li><div>요금 적응 전력</div><div>121 kW</div></li>
+							<li><div>현재 전력 요금</div><div>121 kW</div></li>
+							<li><div>예상 편익</div><div>1,000 kW</div></li>
+							<li><div>금일 절감 효과</div><div>8,622 kW</div></li>
+							<li><div>요금 종류</div><div>10%</div></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-3">
+					<div class="dayWrap bBox">
+						<h4>2018.1</h4>
+						<ul>
+							<li>
+								<div class="circle blueBg"></div>
+								<p>500kW</p>
+								<p class="purpleFt">{{ts.MAXIMUM}}</p>
+							</li>
+							<li>
+								<div class="circle blueBg"></div>
+								<p>300kW</p>
+								<p class="purpleFt">{{ts.MEDIUM}}</p>
+							</li>
+							<li>
+								<div class="circle blueBg"></div>
+								<p>100kW</p>
+								<p class="purpleFt">{{ts.LIGHT_LOADING}}</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		<!-- //container main -->
+	</div>
+		
+
+	</body>
+</html>

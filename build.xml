@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="iceem">
+	<property name="projectName" value="iceem" />
+	<property name="web.home" value="${basedir}/WebContent" />
+	<property name="lib.location" value="/ice/lib"/>
+
+	<property environment="env"/>
+    <property name="ECLIPSE_HOME" value="C:/Develop/eGovFrameDev-3.5.1-64bit/"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="Web App Libraries.libraryclasspath">
+    	<pathelement location="WebContent/WEB-INF/lib"/>
+		<fileset dir="WebContent/WEB-INF/lib">
+			<include name="**/*.jar"/>
+		</fileset>
+    	<!--   <pathelement location="WebContent/WEB-INF/lib/javax.servlet-api-3.1.0.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jsoup-1.9.2.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jstl-1.2.jar"/>-->
+    </path>
+    <path id="EAR Libraries.libraryclasspath"/>
+    <path id="iceem.classpath">
+        <pathelement location="build/classes"/>
+        <path refid="Web App Libraries.libraryclasspath"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="build/classes"/>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            	<exclude name="**/*.svn"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="build/classes"/>
+    </target>
+    <target depends="clean" name="cleanall">
+		<ant antfile="build.xml" dir="${edm-plugin-adapter.location}" inheritAll="false" target="clean"/>
+	</target>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="iceem.classpath"/>
+        </javac>
+
+    	<delete dir="outPut/temp" />
+
+    	<mkdir dir="outPut/temp" />
+
+    	<copy todir="${web.home}/WEB-INF/classes" >
+            <fileset dir="build/classes">
+            	<exclude name="**/*.java"/>
+            	 <exclude name="**/*.svn"/>
+    		</fileset>
+        </copy>
+
+    	<war  needxmlfile="false"  destfile="outPut/temp/ROOT.war" basedir="${web.home}" >
+            <exclude name="**/.*"/>
+        </war>
+    	<echo message="outPut/${projectName}.war : war file backup"/>
+
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+</project>

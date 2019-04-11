@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+  	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>ESS</title>
+	<link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.png">
+	<link href="resources/css/bootstrap.min.css" rel="stylesheet">
+	<link href="resources/css/ess.css" rel="stylesheet">
+
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+   
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  	</head>
+  	
+	<body class="loginWrap">
+	<div class="bg"></div>
+	<div class="Wrap ng-scope" ng-controller="initiate_ctrl as init">
+			<div class="Wrap ng-scope" ng-controller="websocket_ctrl as websocket">
+				<!-- ngIf: isTop -->
+				<!-- ngIf: isLeft -->
+				<!-- uiView: --><div ui-view="" class="ng-scope">
+
+
+
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" class="ng-scope">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" class="ng-scope">
+		<meta name="viewport" content="width=device-width, initial-scale=1" class="ng-scope">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	
+	
+		<ul id="txtlist" class="ng-scope"></ul><!-- rolling list -->
+		<div class="container ng-scope">
+			<form class="form-signin  ng-pristine ng-valid ng-valid-email ng-valid-required" name="myForm" role="form">
+				<h2 class="form-signin-heading"><a href="login.jsp" class="logo">ICE EM</a></h2>
+				<div class="inputIn">
+					<input type="email" id="inputEmail" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-email ng-valid-required ng-touched" placeholder="아이디" ng-model="login.loginModel.userid" name="userid" required="" autofocus="">
+					<div class="has-error ng-hide" ng-show="myForm.userid.$dirty">
+			        </div>
+					<input type="password" id="inputPassword" class="form-control ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required" ng-keydown="enterEventFnc($event)" placeholder="패스워드" ng-model="login.loginModel.password" required="">
+					<div class="checkbox">
+						<label>
+							<input id="saveid" type="checkbox" ng-model="login.save" ng-checked="idSave" value="remember-me" class="ng-pristine ng-untouched ng-valid ng-not-empty"> 아이디 저장
+						</label>
+					</div>
+					<button class="btn btn-lg btn-primary btn-block" type="button" onclick="window.open('index.html')">로그인</button>
+					<button class="btn btn-lg btn-block joinBtn" type="button" ui-sref="join" ng-disabled="((login.validation.duplicateCheck == false ) || (login.validation.passwordCheck == false) || (login.validation.smsCertification == false) ) " href="#!/join">회원가입</button>
+					<ul class="searchId">
+						<li><a ui-sref="findId" ui-sref-active="" href="#!/findId">아이디 찾기</a></li>
+		    			<li><a ui-sref="changePw" ui-sref-active="" href="#!/changePw">비밀번호 찾기</a></li>
+					</ul>
+				</div>
+				<div class="loginFooter">
+					copyright wooam. ALL right reserved
+				</div>
+			</form>
+		</div>
+	
+
+</div>
+			</div>
+		</div>
+		
+
+	</body>
+</html>

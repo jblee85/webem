@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1194px"
+	 height="585px" viewBox="0 0 1194 585" enable-background="new 0 0 1194 585" xml:space="preserve">
+
+<!--BG-->
+	<g>
+		<polygon fill="#263151" points="1162,263.5 510,3 25,196 648,494 		"/>
+	</g>
+
+	<g id="bgLine">
+		<polyline fill="none" stroke="#17213F" stroke-width="5" stroke-miterlimit="10" points="630.75,88 533.75,51.5 162.75,201.5 278.75,255    "/>
+		<line fill="none" stroke="#17213F" stroke-width="5" stroke-miterlimit="10" x1="357.795" y1="123.922" x2="643.511" y2="250.365"/>
+		<polyline fill="none" stroke="#17213F" stroke-width="5" stroke-miterlimit="10" points="986.75,258 800.75,186.5 439.75,332.5 639.375,423.375    "/>
+		<g id="fa">
+			<path d="m277,256 L157,201 L168,201 L277,251" fill="#7195fc"/>
+			<path d="m160,201 L356,120 L356,124 L163,204" fill="#7195fc"/>
+		</g>
+		<g id="gr">
+			<path d="m631,85 L534,49 L534,53 L631,89" fill="#7195fc"/>
+			<path d="m534,49 L356,120 L356,124 L534,53" fill="#7195fc"/>
+		</g>
+		<g id="cen">
+			<path d="m644,247 L356,120 L356,124 L644,251" fill="#7195fc"/>
+		</g>
+		<g id="su">
+			<path d="m638,421 L446,333 L434,333 L638,426" fill="#7195fc"/>
+			<path d="m434,333 L638,250 L649,250 L446,333" fill="#7195fc"/>
+		</g>
+		<g id="ba">
+			<!--<path d="m987,256 L801,184 L801,188 L987,260" fill="#dd4d59"/>-->
+			<path d="m987,256 L801,184 L801,188 L987,260" fill="#7195fc"/>
+			<path d="m801,184 L644,247 L644,251 L801,188" fill="#7195fc"/>
+		</g>
+	</g>
+
+	<path class="path1" ng-attr-transform="{{electric_flow.flow1.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow1.fill}}">
+		<animateMotion class="path1_1" ng-attr-path="{{electric_flow.flow1.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+	</path>
+
+	<path class="path2" ng-attr-transform="{{electric_flow.flow2.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow2.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow2.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path3" ng-attr-transform="{{electric_flow.flow3.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow3.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow3.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path4" ng-attr-transform="{{electric_flow.flow4.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow4.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow4.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path5" ng-attr-transform="{{electric_flow.flow5.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow5.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow5.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path6" ng-attr-transform="{{electric_flow.flow6.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow6.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow6.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path7" ng-attr-transform="{{electric_flow.flow7.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow7.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow7.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path8" ng-attr-transform="{{electric_flow.flow8.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow8.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow8.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+	<path class="path9" ng-attr-transform="{{electric_flow.flow9.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow9.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow9.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+	<path class="path10" ng-attr-transform="{{electric_flow.flow10.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow10.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow10.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path11" ng-attr-transform="{{electric_flow.flow11.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow11.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow11.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path12" ng-attr-transform="{{electric_flow.flow12.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow12.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow12.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+	<path class="path13" ng-attr-transform="{{electric_flow.flow13.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow13.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow13.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path14" ng-attr-transform="{{electric_flow.flow14.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow14.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow14.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+	<g id="faWrap">
+		<text transform="matrix(1 0 0 1 286.5 180.9966)" fill="#a8bdff" font-family="'NanumSquare'" font-size="14">Factory</text>
+		<text transform="matrix(1 0 0 1 286.5 202.9722)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="18">451kW</text>
+		<g id="ico_fa">
+			<polygon fill="#ADB1BA" points="236.002,208.403 247.376,201.971 258.362,208.206 247.192,214.73 		"/>
+			<polygon fill="#868C9C" points="236.002,208.403 230.756,267.89 247.182,277.436 247.182,214.736 		"/>
+			<polygon fill="#6E7280" points="258.362,208.206 263.015,268.02 247.182,277.436 247.182,214.736 		"/>
+			<polygon fill="#9FA3AB" points="247.182,234.978 259.873,227.625 260.157,231.996 247.182,239.471 	"/>
+			<ellipse fill="#868C9C" cx="246.937" cy="208.206" rx="5.392" ry="3.236"/>
+			<polygon fill="#ADB1BA" points="234.331,227.547 247.182,234.978 247.182,239.471 233.882,231.846 	"/>
+			<polygon fill="#9FA3AB" points="247.185,251.827 259.876,244.474 260.16,248.846 247.185,256.319 	"/>
+			<polygon fill="#ADB1BA" points="232.902,243.681 247.185,251.827 247.185,256.319 232.509,248.012 	"/>
+			<polygon fill="#D6A751" points="291.403,208.309 291.403,259.563 325.183,279.035 325.183,227.896 		"/>
+			<polygon fill="#D69F51" points="273.24,218.972 273.24,270.227 307.019,289.699 307.019,238.559 		"/>
+			<polygon fill="#D6AF51" points="255.001,229.58 255.001,280.834 288.781,300.307 288.781,249.167 		"/>
+			<polygon fill="#EDC61A" points="288.781,249.145 306.97,259.579 306.97,238.527 325.183,248.975 325.183,227.889 341.382,239.689 341.382,269.743 325.209,279.035 325.209,279.043 306.97,289.689 306.97,289.688 288.781,300.307 		"/>
+			<polygon fill="#868C9C" points="243.56,183.784 241.545,208.206 252.33,207.945 250.314,184.024 	"/>
+			<ellipse fill="#EBEBEB" cx="246.937" cy="184.024" rx="3.377" ry="2.027"/>
+			<ellipse fill="#6E7280" cx="246.937" cy="184.024" rx="1.886" ry="1.132"/>
+			<polygon fill="#6286EF" points="293.916,262.373 293.916,277.803 302.39,272.802 302.39,267.033 	"/>
+			<polygon fill="#6286EF" points="312.72,252.063 312.72,266.771 321.194,261.771 321.194,256.467 	"/>
+			<polygon fill="#6286EF" points="329.714,242.166 329.714,256.875 338.188,251.875 338.188,246.57 	"/>
+		</g>
+	</g>
+
+<g id="pcWrap">
+	<text transform="matrix(1 0 0 1 697.8623 192.2173)" fill="#a8bdff" font-family="'NanumSquare'" font-size="14">PCS1</text>
+	<text transform="matrix(1 0 0 1 697.8623 214.168)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="18">500kW</text>
+	<text transform="matrix(1 0 0 1 697.8623 235.668)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="18">30</text>
+	<g id="ico_pc">
+		<polygon fill="#EEEEEF" points="601.557,190.038 662.959,225.49 662.959,275.617 601.557,240.16 	"/>
+		<polygon fill="#F7F7F7" points="601.557,190.038 628.951,173.948 690.592,209.336 662.959,225.49 	"/>
+		<polygon fill="#DBDCDC" points="690.592,209.336 690.728,258.443 662.959,275.617 662.959,225.49 	"/>
+		<polygon fill="#CCCAD1" points="655.113,197.808 662.91,202.205 662.91,211.396 655.113,206.874 		"/>
+		<polygon fill="#E0DEE6" points="655.113,197.808 661.422,194.06 669.199,198.472 662.91,202.205 		"/>
+		<polygon fill="#AAA8AD" points="669.199,198.472 669.199,207.741 662.91,211.396 662.91,202.205 		"/>
+		<polygon fill="#CCCAD1" points="624.362,180.872 632.158,185.27 632.158,194.46 624.362,189.939 		"/>
+		<polygon fill="#E0DEE6" points="624.362,180.872 630.67,177.125 638.447,181.536 632.158,185.27 		"/>
+		<polygon fill="#AAA8AD" points="638.447,181.536 638.447,190.805 632.158,194.46 632.158,185.27 		"/>
+		<path fill="#848484" d="M609.397,239.092c-0.54,0-1.029-0.371-1.157-0.92c-0.147-0.64,0.25-1.278,0.891-1.427l44.818-10.399
+		c0.64-0.148,1.277,0.25,1.426,0.889c0.148,0.641-0.249,1.279-0.889,1.428l-44.818,10.398
+		C609.577,239.082,609.486,239.092,609.397,239.092z"/>
+		<path fill="#848484" d="M626.02,217.313c-0.002,1.078-0.394,1.79-1.176,2.136c-0.782,0.345-1.714,0.209-2.79-0.406
+		c-1.188-0.679-2.63-2.189-4.327-4.533l-1.115-1.549c-1.136-1.571-2.1-2.583-2.895-3.038c-0.855-0.489-1.576-0.618-2.161-0.386
+		c-0.141,0.045-0.446,0.611-0.913,1.697c-0.142,0.328-0.258,0.523-0.351,0.586c-0.151,0.071-0.397,0.008-0.74-0.187
+		c-0.734-0.42-1.101-1.153-1.096-2.2c0.003-1.34,0.512-2.194,1.527-2.563c1.015-0.37,2.269-0.127,3.771,0.73
+		c1.349,0.77,2.781,2.212,4.296,4.326l1.011,1.411c1.355,1.886,2.405,3.041,3.15,3.467c0.756,0.432,1.27,0.212,1.543-0.659
+		c0.175-0.509,0.297-0.813,0.366-0.909c0.173-0.184,0.435-0.176,0.787,0.025C625.652,215.687,626.023,216.37,626.02,217.313z"/>
+		<path fill="#848484" d="M626.002,224.453c-0.002,1.079-0.395,1.791-1.178,2.137c-0.781,0.346-1.713,0.21-2.791-0.406
+		c-1.187-0.678-2.629-2.189-4.328-4.535l-1.114-1.55c-1.136-1.572-2.101-2.585-2.897-3.041c-0.854-0.488-1.574-0.617-2.16-0.384
+		c-0.143,0.044-0.445,0.61-0.912,1.697c-0.143,0.328-0.259,0.523-0.352,0.587c-0.152,0.071-0.398,0.009-0.739-0.188
+		c-0.735-0.419-1.102-1.153-1.099-2.2c0.004-1.34,0.514-2.196,1.529-2.565c1.014-0.37,2.271-0.126,3.771,0.73
+		c1.348,0.771,2.782,2.213,4.297,4.329l1.011,1.41c1.356,1.887,2.406,3.043,3.152,3.469c0.754,0.433,1.269,0.213,1.544-0.658
+		c0.174-0.51,0.295-0.813,0.365-0.91c0.172-0.184,0.436-0.177,0.787,0.025C625.633,222.826,626.004,223.51,626.002,224.453z"/>
+		<path fill="#848484" d="M650.939,250.045c-0.25,0-0.504-0.064-0.736-0.197l-15.051-8.602c-0.713-0.406-0.959-1.313-0.553-2.025
+		c0.407-0.713,1.314-0.961,2.027-0.553l15.051,8.601c0.711,0.407,0.959,1.314,0.553,2.026
+		C651.956,249.775,651.455,250.045,650.939,250.045z"/>
+		<path fill="#848484" d="M650.929,256.764c-0.251,0-0.504-0.064-0.736-0.197l-15.054-8.604c-0.713-0.407-0.96-1.314-0.553-2.026
+		c0.407-0.713,1.314-0.959,2.027-0.553l15.054,8.604c0.712,0.407,0.96,1.315,0.552,2.027
+		C651.945,256.494,651.444,256.764,650.929,256.764z"/>
+	</g>
+
+	<path fill="#1B233A" d="M621.75,176.997c0,1.104-0.896,2-2,2h-22.833c-1.104,0-2-0.896-2-2v-12.83c0-1.104,0.896-2,2-2h22.833
+		c1.104,0,2,0.896,2,2V176.997z"/>
+	<path fill="#1B233A" d="M653.333,176.997c0,1.104-0.896,2-2,2H628.5c-1.104,0-2-0.896-2-2v-12.83c0-1.104,0.896-2,2-2h22.833
+		c1.104,0,2,0.896,2,2V176.997z"/>
+	<path fill="#1B233A" d="M684.916,176.997c0,1.104-0.895,2-2,2h-22.833c-1.104,0-2-0.896-2-2v-12.83c0-1.104,0.896-2,2-2h22.833
+		c1.105,0,2,0.896,2,2V176.997z"/>
+	<text transform="matrix(1 0 0 1 602.1396 174.9482)" fill="#AFB4C5" font-family="'NanumSquareEB'" font-size="12">W</text>
+	<text transform="matrix(1 0 0 1 636.2373 174.9482)" fill="#AFB4C5" font-family="'NanumSquareEB'" font-size="12">F</text>
+	<text transform="matrix(1 0 0 1 669.6152 174.9482)" fill="#AFB4C5" font-family="'NanumSquareEB'" font-size="12">I</text>
+
+
+
+	<path fill="#1B233A" d="M705.5,288.125c0,1.863-1.512,3.375-3.375,3.375h-111c-1.864,0-3.375-1.512-3.375-3.375l0,0
+	c0-1.863,1.511-3.375,3.375-3.375h111C703.988,284.75,705.5,286.262,705.5,288.125L705.5,288.125z"/>
+	<text transform="matrix(1 0 0 1 579.4565 304.8457)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="9">100</text>
+	<text transform="matrix(1 0 0 1 610.3242 304.8467)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="9">50</text>
+	<text transform="matrix(1 0 0 1 641.1914 304.8457)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="9">0</text>
+	<text transform="matrix(1 0 0 1 667.0547 304.8467)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="9">50</text>
+	<text transform="matrix(1 0 0 1 692.916 304.8457)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="9">100</text>
+</g>
+
+
+
+
+<g id="sunWrap">
+	<g id="ico_sun">
+		<polygon fill="#EDEDED" points="619.588,431.127 644.664,445.604 710.289,407.715 703.956,404.055 685.205,393.232 625.926,427.467 	"/>
+		<polygon opacity="0.1" fill="#1D1D1B" points="625.926,427.467 644.664,438.284 703.956,404.055 685.205,393.232 	"/>
+		<polygon fill="#C6C6C6" points="644.669,458.582 710.293,420.686 710.293,407.71 644.669,445.604 	"/>
+		<polygon fill="#B2B2B2" points="644.669,458.582 619.584,444.098 619.584,431.122 644.669,445.604 	"/>
+		<rect x="639.926" y="374.597" fill="#9D9D9C" width="10.645" height="56.139"/>
+		<path fill="#9D9D9C" d="M641.484,428.397c2.08-1.201,5.451-1.201,7.529,0c2.08,1.2,2.08,3.145,0,4.35c-2.078,1.195-5.449,1.195-7.529,0C639.406,431.542,639.406,429.598,641.484,428.397z"/>
+		<rect x="679.98" y="356.145" fill="#9D9D9C" width="10.646" height="51.428"/>
+		<path fill="#9D9D9C" d="M681.54,405.238c2.074-1.203,5.446-1.203,7.526,0c2.078,1.198,2.078,3.144,0,4.348c-2.08,1.198-5.452,1.198-7.526,0C679.457,408.382,679.457,406.437,681.54,405.238z"/>
+		<polygon fill="#C6C6C6" points="608.555,383.742 679.586,342.73 721.325,381.31 650.295,422.321 		"/>
+		<polygon fill="#FFFFFF" points="717.389,380.867 650.617,419.421 612.49,384.183 679.262,345.627 		"/>
+		<polygon fill="#6286EF" points="713.454,380.426 650.941,416.521 616.428,384.621 678.936,348.527 		"/>
+		<rect x="676.462" y="350.393" transform="matrix(-0.6809 0.7324 -0.7324 -0.6809 1413.9076 134.5643)" fill="#FFFFFF" width="2.349" height="49.865"/>
+		<polygon fill="#FFFFFF" points="672.861,405.846 674.459,404.12 637.9,370.204 636.306,371.928 		"/>
+		<polygon fill="#FFFFFF" points="639.994,406.965 703.956,369.942 702.778,367.91 638.121,405.331 		"/>
+		<polygon fill="#FFFFFF" points="626.335,396.593 691.641,358.68 690.463,356.651 624.59,394.888 		"/>
+		<polygon fill="#878787" points="649.436,425.069 720.466,384.061 721.325,381.31 650.295,422.321 	"/>
+		<polygon fill="#878787" points="649.436,425.069 607.692,386.492 608.555,383.742 650.295,422.321 	"/>
+	</g>
+	<text transform="matrix(1 0 0 1 738.8623 396.6953)" fill="#a8bdff" font-family="'NanumSquare'" font-size="14">NONE</text>
+	<text transform="matrix(1 0 0 1 846.1123 397.6953)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="18">780kW</text>
+	<text transform="matrix(1 0 0 1 738.8623 419.6953)" fill="#a8bdff" font-family="'NanumSquare'" font-size="14">NONE</text>
+	<text transform="matrix(1 0 0 1 846.1123 420.6953)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="18">780DDkW</text>
+</g>
+
+
+<g id="baWrap">
+	<text transform="matrix(1 0 0 1 1059.3623 225.4419)" fill="#a8bdff" font-family="'NanumSquare'" font-size="14">Battery 1</text>
+	<text transform="matrix(1 0 0 1 1059.3623 247.3926)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="18">780kW</text>
+	<text transform="matrix(1 0 0 1 1059.3623 268.8926)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="18">780kW</text>
+	<g id="ico_ba">
+		<polygon fill="#DDDAE0" points="1046.421,215.606 979.485,254.253 979.485,308.897 1046.421,270.246 	"/>
+		<polygon fill="#FFFFFF" points="1046.421,215.606 1029.847,206.221 963.018,244.478 979.485,254.253 	"/>
+		<polygon fill="#BAB8BD" points="963.018,244.478 963.018,299.325 979.485,308.897 979.485,254.253 	"/>
+		<polygon fill="#37D94A" points="999.381,252.879 991.647,257.457 991.647,296.598 999.381,292.164 		"/>
+		<polygon fill="#54F066" points="999.381,252.879 996.467,251.193 988.696,255.725 991.647,257.457 		"/>
+		<polygon fill="#2FBA40" points="988.696,255.725 988.696,294.93 991.647,296.598 991.647,257.457 		"/>
+		<polygon fill="#37D94A" points="1018.433,241.589 1010.7,246.167 1010.7,285.309 1018.433,280.873 		"/>
+		<polygon fill="#54F066" points="1018.433,241.589 1015.521,239.902 1007.75,244.434 1010.7,246.167 		"/>
+		<polygon fill="#2FBA40" points="1007.75,244.434 1007.75,283.641 1010.7,285.309 1010.7,246.167 		"/>
+		<polygon fill="#37D94A" points="1036.604,231.357 1028.87,235.936 1028.87,275.076 1036.604,270.641 		"/>
+		<polygon fill="#54F066" points="1036.604,231.357 1033.69,229.672 1025.92,234.202 1028.87,235.936 		"/>
+		<polygon fill="#2FBA40" points="1025.92,234.202 1025.92,273.408 1028.87,275.076 1028.87,235.936 		"/>
+		<polygon fill="#CCCAD1" points="974.891,268.324 966.392,273.117 966.392,288.211 974.891,283.281 		"/>
+		<polygon fill="#E0DEE6" points="974.891,268.324 968.181,264.31 959.536,269.049 966.392,273.117 		"/>
+		<polygon fill="#AAA8AD" points="959.536,269.049 959.536,284.227 966.392,288.211 966.392,273.117 		"/>
+	</g>
+	<path fill="#1B233A" d="M988.583,211.017c0,1.104-0.896,2-2,2H963.75c-1.105,0-2-0.896-2-2v-12.83c0-1.104,0.895-2,2-2h22.833
+		c1.104,0,2,0.896,2,2V211.017z"/>
+	<path fill="#1B233A" d="M1020.166,211.017c0,1.104-0.896,2-2,2h-22.833c-1.104,0-2-0.896-2-2v-12.83c0-1.104,0.896-2,2-2h22.833
+		c1.104,0,2,0.896,2,2V211.017z"/>
+	<path fill="#1B233A" d="M1051.75,211.017c0,1.104-0.896,2-2,2h-22.834c-1.104,0-2-0.896-2-2v-12.83c0-1.104,0.896-2,2-2h22.834
+		c1.104,0,2,0.896,2,2V211.017z"/>
+	<text transform="matrix(1 0 0 1 969.5576 208.7817)" fill="#AFB4C5" font-family="'NanumSquareEB'" font-size="12">W</text>
+	<text transform="matrix(1 0 0 1 1003.2383 208.7817)" fill="#AFB4C5" font-family="'NanumSquareEB'" font-size="12">F</text>
+	<text transform="matrix(1 0 0 1 1036.6162 208.7817)" fill="#AFB4C5" font-family="'NanumSquareEB'" font-size="12">I</text>
+	<path fill="#1B233A" d="M1065.5,320.954c0,1.864-1.512,3.375-3.375,3.375h-111c-1.863,0-3.375-1.511-3.375-3.375l0,0c0-1.864,1.512-3.375,3.375-3.375h111C1063.988,317.579,1065.5,319.09,1065.5,320.954L1065.5,320.954z"/>
+	<text transform="matrix(1 0 0 1 938.7832 337.124)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="9">100</text>
+	<text transform="matrix(1 0 0 1 969.6514 337.125)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="9">50</text>
+	<text transform="matrix(1 0 0 1 1000.5186 337.124)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="9">0</text>
+	<text transform="matrix(1 0 0 1 1026.3809 337.125)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="9">50</text>
+	<text transform="matrix(1 0 0 1 1052.2432 337.124)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="9">100</text>
+</g>
+
+<g id="grWrap">
+	<text transform="matrix(1 0 0 1 625.3623 18.9844)" fill="#a8bdff" font-family="'NanumSquare'" font-size="14">KEPCO</text>
+	<text transform="matrix(1 0 0 1 625.3623 40.96)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="18">780kW</text>
+</g>
+<defs>
+		<linearGradient id="grid-gradient" >
+			<stop  stop-color="#0000CD">
+				<animate attributeName="stop-color" values="#E6E6FA;#87CEEB; #1E90FF; #0000CD" dur="0.9s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+    </defs>
+	<defs>
+		<linearGradient id="battery-gradient" >
+			<stop  stop-color="#FF7A85">
+				<animate attributeName="stop-color" values="#FFC0CB; #FFA2AD; #FF98A3; #FF5675" dur="0.9s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+    </defs>
+    <defs>
+		<linearGradient id="pv-gradient" >
+			<stop  stop-color="#FF7A85">
+				<animate attributeName="stop-color" values="#FAF4C0; #FAED7D; #E5D85C; #FFFF24" dur="0.9s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+    </defs>
+	<defs>
+		<linearGradient id="factory-gradient" >
+			<stop  stop-color="#7195FC">
+				<animate attributeName="stop-color" values="#E6749D; #DC6089; #CD426B; #CD2E57; #CD1039" dur="1.5s" repeatCount="indefinite">
+				</animate>
+			</stop>
+		</linearGradient>
+	</defs>
+	<defs>  <!--색깔을 연속적으로 변화시킴-->
+     <linearGradient id="power-gradient" >
+		<stop  stop-color="#7195FC"><!--stop-color의 색깔이 초기값-->
+     		<animate attributeName="stop-color" values="#5ABEFF; #3296FF; #1E82FF; #0A6EFF; #0064FF" dur="1.5s" repeatCount="indefinite"></animate>
+     	</stop>
+     </linearGradient> <!-- dur=설정 시간 안에 values에 있는 색깔을 모두 표현 -->
+    </defs>
+</svg>

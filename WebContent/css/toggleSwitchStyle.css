@@ -1,0 +1,133 @@
+/*flipSwitch*/
+
+.flipSwitch {
+    width: 50px;
+	margin: 0 auto;
+}
+
+.flipSwitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.flipSwitch-inner:before, .flipSwitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 19px;
+    padding: 0;
+    line-height: 19px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, sans-serif;
+    box-sizing: border-box;
+}
+
+.flipSwitch-inner:before {
+    content: "ON";
+    padding-left: 8px;
+    background-color: #31a5e8;
+    color: #FFFFFF;
+    text-align:  left;
+}
+
+.flipSwitch-inner:after {
+    content: "OFF";
+    padding-right: 7px;
+    background-color: #d1d1d1;
+    color: #808080;
+    text-align: right;
+}
+
+.flipSwitch-switch {
+    background: #ffffff;
+    right: 32px;
+    /* left:  0; */
+}
+
+
+
+/*--------------longFlip--------------*/
+.longFlip {
+    width: 140px;
+}
+
+.longFlip-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.longFlip-inner:before, .longFlip-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, sans-serif;
+    box-sizing: border-box;
+}
+
+.longFlip-inner:before {
+    content: "PV to Grid";
+    padding-left: 22px;
+    background-color: #2A448C;
+    color: #FFFFFF;
+}
+
+.longFlip-inner:after {
+    content: "PV to Battery";
+    padding-right: 14px;
+    background-color: #2A448C;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.longFlip-switch {   
+    background: #52ffb0;
+    right: 109px;
+    /* left:  0; */
+}
+
+/*-------same--------*/
+
+.flipSwitch,.longFlip {
+    position: relative;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+}
+
+.flipSwitch-checkbox,.longFlip-checkbox {
+    display: none;
+}
+
+.flipSwitch-label,.longFlip-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px;
+	margin-bottom: 0;
+}
+
+.flipSwitch-switch,.longFlip-switch {
+	display: block;
+	width: 16px;
+	margin: 1px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	border-radius: 20px;
+	transition: all 0.3s ease-in 0s;
+}
+
+.flipSwitch-checkbox:checked + .flipSwitch-label .flipSwitch-inner,.longFlip-checkbox:checked + .longFlip-label .longFlip-inner {
+    margin-left: 0;
+}
+
+.flipSwitch-checkbox:checked + .flipSwitch-label .flipSwitch-switch,.longFlip-checkbox:checked + .longFlip-label .longFlip-switch {
+    right: 0px;
+    background-color: #ffffff;
+}

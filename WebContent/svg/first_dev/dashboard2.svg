@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="load" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1194 585" enable-background="new 0 0 1194 585" xml:space="preserve">
+<!--x="0px" y="0px" width="1060px" height="460px" -->
+
+
+<g class="ground">
+	<polygon  fill="#263151" points="1162,263.5 510,3 25,196 648,494 		"/>
+</g>
+<g class="charge"><!--대시보드 흐름선-->
+	<!--흐름을 표현할 선을 포현하기 위함. 선을 그리기 위해 line 명령어를 쓰면 점선이나 선의 두깨 같은 거을 비교적 쉽게 정의 할 수 있지만, line 명령어를 쓰면 단색만 표현 가능하고 아래와 같이 색깔을 연속해서 바꿔주는 linearGradient 명령어를 쓸수 없음. path명령어를 써서도 선을 그릴 수 있음.path를 쓰면 경로를 지정해서 그림을 그리기 때문에 자유롭게 만들수 있고 linearGradient명령어를 쓸수 있음, 하지만 점선같은 경우 점 하나하나 만들어 줘야함.  -->
+    <path class="line1" d="M57,110 L60,110 L60,199 L57,199" ng-attr-fill="{{electric.line1.fill}}"/>
+    <path class="line2" d="M57,199 L60,199 L60,328 L57,328" ng-attr-fill="{{electric.line2.fill}}"/>
+    <path class="line3" d="M57,197 L555,197 L555,200 L57,200" ng-attr-fill="{{electric.line3.fill}}"/>
+    <path class="line4" d="M555,197 L740,197 L740,200 L555,200" ng-attr-fill="{{electric.line4.fill}}"/>
+    <path class="line5" d="M737,198.5 L740,198.5 L740,55 L737,55" ng-attr-fill="{{electric.line5.fill}}"/>
+    <path class="line6" d="M737,198.5 L740,198.5 L740,314 L737,314" ng-attr-fill="{{electric.line6.fill}}"/>
+    <path class="line7" d="M737,54 L907,54 L907,57 L737,57" ng-attr-fill="{{electric.line7.fill}}"/>
+    <path class="line8" d="M737,312 L904,312 L904,315 L737,315" ng-attr-fill="{{electric.line8.fill}}"/>
+</g>
+</svg>
+
+
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="118.139px" height="38.064px" viewBox="0 0 118.139 38.064" enable-background="new 0 0 118.139 38.064"
+	 xml:space="preserve">
+<linearGradient name="pv_gradient" id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="59.0066" y1="817.3169" x2="59.0066" y2="803.5864" gradientTransform="matrix(1 0 0 1 0.105 -779.252)">
+	<stop  offset="0" style="stop-color:#FF4500"/>
+	<stop  offset="0.1047" style="stop-color:#FF5500"/>
+	<stop  offset="0.3331" style="stop-color:#FF7200"/>
+	<stop  offset="0.5604" style="stop-color:#FF8600"/>
+	<stop  offset="0.7841" style="stop-color:#FF9300"/>
+	<stop  offset="1" style="stop-color:#FF9700"/>
+</linearGradient>
+<path name="pv" fill="url(#SVGID_1_)" d="M58.243,37.462c0.478,0.703,1.259,0.845,1.734,0.132l7.543-11.44c0.476-0.707,0.161-1.82-0.701-1.82
+	H51.405c-0.863,0-1.179,1.113-0.7,1.82L58.243,37.462z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="21.5261" y1="817.3169" x2="21.5261" y2="803.5864" gradientTransform="matrix(1 0 0 1 0.105 -779.252)">
+	<stop  offset="0" style="stop-color:#0050A2"/>
+	<stop  offset="0.1531" style="stop-color:#0053A5"/>
+	<stop  offset="0.3331" style="stop-color:#0064B0"/>
+	<stop  offset="0.5604" style="stop-color:#007CB7"/>
+	<stop  offset="0.7841" style="stop-color:#0098D8"/>
+	<stop  offset="1" style="stop-color:#00A3E3"/>
+</linearGradient>
+<path name="grid" fill="url(#SVGID_2_)" d="M20.763,37.462c0.478,0.703,1.259,0.845,1.734,0.132l7.543-11.44c0.476-0.707,0.161-1.82-0.701-1.82
+	H13.924c-0.863,0-1.179,1.113-0.7,1.82L20.763,37.462z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="96.489" y1="817.3149" x2="96.489" y2="803.5864" gradientTransform="matrix(1 0 0 1 0.105 -779.252)">
+	<stop  offset="0" style="stop-color:#007600"/>
+	<stop  offset="0.2696" style="stop-color:#009C00"/>
+	<stop  offset="0.5208" style="stop-color:#00B900"/>
+	<stop  offset="0.6841" style="stop-color:#00CD00"/>
+	<stop  offset="0.8449" style="stop-color:#00DA00"/>
+	<stop  offset="1" style="stop-color:#00DE00"/>
+</linearGradient>
+<path name="" fill="url(#SVGID_3_)" d="M95.726,37.461c0.477,0.703,1.257,0.845,1.733,0.132l7.544-11.439c0.477-0.707,0.161-1.82-0.701-1.82
+	H88.887c-0.864,0-1.181,1.113-0.703,1.82L95.726,37.461z"/>
+<text transform="matrix(1 0 0 1 12.6165 12.1162)" font-family="'NanumBarunGothic'" font-size="10">grid</text>
+<text transform="matrix(1 0 0 1 53.5217 12.1162)" font-family="'NanumBarunGothic'" font-size="10">pv</text>
+<text transform="matrix(1 0 0 1 79.9241 12.1162)" font-family="'NanumBarunGothic'" font-size="10">battery</text>
+</svg>

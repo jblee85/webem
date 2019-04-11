@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+  	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>ESS</title>
+	<link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.png">
+	<link href="resources/css/bootstrap.min.css" rel="stylesheet">
+	<link href="resources/css/ess.css" rel="stylesheet">
+
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+   
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  	</head>
+  	
+	<body>
+	<div class="Wrap">
+		<!-- Fixed navbar -->
+			<nav class="navbar navbar-fixed-top ng-scope">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h2 class="form-signin-heading"><a class="logo" href="index.html">ICE EM</a></h2>
+					</div>
+			
+										<div id="navbar" class="collapse navbar-collapse ng-scope" ng-controller="header_ctrl">
+						<ul class="nav navbar-nav">
+							<li ng-class="{ active: isActive('/dashboard')}" class=""><a ui-sref="dashboard" href="index.html">대시보드</a></li>
+			
+							<li class="dropdown active" ng-class="{ active: isActive('/pcsStats')}">
+								<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PCS<span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a ui-sref="pcsStats" href="sub1.html">PCS 전체</a></li>
+									<li><a href="">PCS 개별 상세</a></li>
+								</ul>
+							</li>
+							<li ng-class="{ active: isActive('/board')}"><a ui-sref="board" href="sub2.html">BMS</a></li>
+							<li ng-class="{ active: isActive('/board')}"><a ui-sref="board" href="sub3.html">스케쥴</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="time">2017년 5월 4일 16<b class="blink">:</b>10<b class="blink">:</b>00</li>
+							<li class="set"><a href="set.html" ng-click="myInfo();">관리자 관리자님<b></b></a></li>
+							<li><a href="login.html"  ng-click="logout();">로그아웃</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right status">
+							<li class="conect">delay</li>
+							<li class="error"><b>3</b></li>
+							<li class="weather"><i class="cloud"></i></li>
+							<li>peak cut</li>
+						</ul>
+						<ul class="navbar-nav sidenav-toggler">
+							<li class="nav-item">
+								<a class="nav-link text-center hide" id="sidenavToggler">
+									<i></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		<!-- //Fixed navbar -->
+		<div class="navbar-nav navbar-sidenav fixed-top ng-scope" id="exampleAccordion">
+			<div class="leftNav ng-scope" ng-controller="leftbar_ctrl">
+				<!-- left content -->
+				<div class="leftWrap">
+					<select class="form-control">
+						<option value="pcs-1">pcs-1</option>
+						<option value="pcs-2">pcs-2</option>
+					</select>
+					<select class="form-control">
+						<option value="BMS1">BMS1</option>
+						<option value="BMS2">BMS2</option>
+					</select>
+					<button class="btn btn-primary btn-block" type="button">검색</button>  
+					<div class="timeTable">
+						<h4>2018년 11월 22일 스케쥴</h4>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="basicTable">
+							<colgroupl>
+								<col width="115">
+								<col width="18">
+								<col width="40">
+								<col width="45">
+							</colgroupl>
+							<thead>
+								<tr>
+								<th>시간</th>
+								<th colspan="3">충/ 방전량</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>09:00~12:00</td>
+									<td>+</td>
+									<td>100</td>
+									<td>kWh</td>
+								</tr>
+								<tr>
+									<td>09:00~12:00</td>
+									<td>+</td>
+									<td>100</td>
+									<td>kWh</td>
+								</tr>
+								<tr >
+									<td class="blink">09:00~12:00</td>
+									<td class="blink">+</td>
+									<td class="blink">100</td>
+									<td class="blink">kWh</td>
+								</tr>
+								<tr>
+									<td>09:00~12:00</td>
+									<td>+</td>
+									<td>100</td>
+									<td>kWh</td>
+								</tr>
+								<tr>
+									<td>09:00~12:00</td>
+									<td>+</td>
+									<td>100</td>
+									<td>kWh</td>
+								</tr>
+								<tr>
+									<td>09:00~12:00</td>
+									<td>+</td>
+									<td>100</td>
+									<td>kWh</td>
+								</tr>
+								<tr>
+									<td>09:00~12:00</td>
+									<td>+</td>
+									<td>100</td>
+									<td>kWh</td>
+								</tr>
+								<tr>
+									<td>09:00~12:00</td>
+									<td>+</td>
+									<td>100</td>
+									<td>kWh</td>
+								</tr>
+								<tr>
+									<td>09:00~12:00</td>
+									<td>+</td>
+									<td>100</td>
+									<td>kWh</td>
+							</tr>
+							<tbody>
+						</table>
+
+					</div>
+				</div>
+				<div class="copyright">
+						copyright wooam
+				</div>
+			</div>
+		</div>
+		<!-- container main -->
+		<div class="content-wrapper ng-scope" >
+			<div class="container-fluid content">
+				<h3>스케줄</h3>
+				<div class="location">
+					<a href="#"><img src="resources/images/ico_home.gif" alt="홈"></a>
+					<a href="#">BMS</a>
+					<span class="current">BMS-1</span>
+				</div>
+				<div class="fullWrap">
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-12">
+							<div class="bBox">
+								<h5>등록된 스케줄</h5>
+								<ul>
+									<li><i class="scOff"></i>기본</li>
+									<li><i class="scOff"></i>산업용</li>
+									<li class="on"><i class="scOn"></i>Peak Cut</li>
+									<li><i class="scOff"></i>봄</li>
+								</ul>
+								<button class="form-control">새로운 스케쥴 만들기</button>
+							</div>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-12">
+							<div class="bBox">
+								<ul>
+									<li>배터리총량</li>
+									<li>총방전 합계<span class="redFt"> -400<span></li>
+									<li>적용중</li>
+									<li>SOC 완전 충전방지  60%, SOC 완전 방지 10%</li>
+								</ul>
+								<div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-12">
+							<div class="bBox">
+								<h5>스케줄 별 편익 요금 비교</h5>
+							</div>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-12">
+							<div class="bBox">
+								<h5>챠트</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //fullWrap -->
+			</div>
+		</div>
+		<!-- //container main -->
+	</div>
+		
+<script src="resources/js/sb-admin.js"></script>
+	</body>
+</html>

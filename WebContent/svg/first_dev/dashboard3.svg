@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1465 520">
+
+<g id="Floor"><!-- 바닥 -->
+	<polygon fill="#263151" points="612,23.25 1456,253.25 803,505.25 0,243.25 	"/>
+</g>
+<g id="road"><!-- 전력 배선 -->
+	<!--factory to center-->
+	<polygon fill="{{electric.line1.fill}}" points="619.889,67.737 439.677,133.88 447.604,136.296 621.611,72.431 "/>
+	<!--grid to center-->
+	<polygon fill="{{electric.line2.fill}}" points="197.567,222.74 316.485,260.963 318.015,256.204 212.933,222.427 439.83,139.15 447.341,136.393 447.604,136.296 439.677,133.88 "/>
+	<!--center-->
+	<polygon fill="{{electric.line3.fill}}" points="452.087,137.816 447.591,136.309 440.08,139.066 767.445,248.731 774.998,245.988 "/>
+	<!--pcs to pv-->
+	<polygon fill="{{electric.line4.fill}}" points="537.824,332.128 790.226,414.377 791.774,409.623 553.176,331.872 773.188,251.965 767.445,248.731"/>
+	<!--pcs to battery-->
+	<polygon fill="{{electric.line5.fill}}" points="958.42,179.37 774.998,245.988 767.445,248.731 773.188,251.965 958.58,184.631 1161.96,244.732 1163.377,239.937 "/>
+</g>
+<g id="arrow">
+	<g id="grid_arrow">
+		<g display="inline">
+				<linearGradient id="grid_arrow1" gradientUnits="userSpaceOnUse" x1="-58.5317" y1="245.5833" x2="-61.8214" y2="254.6214" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#03637A"/>
+				<stop  offset="0.0233" style="stop-color:#036A7D"/>
+				<stop  offset="0.1889" style="stop-color:#039790"/>
+				<stop  offset="0.3556" style="stop-color:#03BDA0"/>
+				<stop  offset="0.5208" style="stop-color:#03DAAD"/>
+				<stop  offset="0.6841" style="stop-color:#03EEB6"/>
+				<stop  offset="0.8449" style="stop-color:#03FBBB"/>
+				<stop  offset="1" style="stop-color:#03FFBD"/>
+			</linearGradient>
+			<path ng-attr-transform="{{grid.flow1.transform}}" ng-attr-fill="{{grid.flow1.fill}}" d="M256.175,233.984c1.111,0.146,1.443,0.575,0.587,0.873l-15.281,5.326
+				c-0.856,0.298-1.816,0.09-1.979-0.389l-2.617-7.556c-0.166-0.479,0.646-0.729,1.752-0.585L256.175,233.984z">
+				<animateMotion class="path1_1" ng-attr-path="{{grid.flow1.path}}" begin="0s" dur="2.5s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g display="inline">
+
+				<linearGradient id="grid_arrow2" gradientUnits="userSpaceOnUse" x1="-56.9619" y1="277.2747" x2="-54.5613" y2="286.234" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#03637A"/>
+				<stop  offset="0.0233" style="stop-color:#036A7D"/>
+				<stop  offset="0.1889" style="stop-color:#039790"/>
+				<stop  offset="0.3556" style="stop-color:#03BDA0"/>
+				<stop  offset="0.5208" style="stop-color:#03DAAD"/>
+				<stop  offset="0.6841" style="stop-color:#03EEB6"/>
+				<stop  offset="0.8449" style="stop-color:#03FBBB"/>
+				<stop  offset="1" style="stop-color:#03FFBD"/>
+			</linearGradient>
+			<path ng-attr-transform="{{grid.flow2.transform}}" ng-attr-fill="{{grid.flow2.fill}}" d="M242.423,201.778c-1.109,0.144-1.442,0.572-0.585,0.87l15.281,5.326
+				c0.855,0.297,1.814,0.09,1.979-0.387l2.617-7.556c0.165-0.48-0.646-0.73-1.752-0.586L242.423,201.778z">
+				<animateMotion class="path1_1" ng-attr-path="{{grid.flow2.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g display="inline">
+
+				<linearGradient id="grid_arrow3" gradientUnits="userSpaceOnUse" x1="182.0371" y1="330.178" x2="184.4382" y2="321.2167" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#03637A"/>
+				<stop  offset="0.0233" style="stop-color:#036A7D"/>
+				<stop  offset="0.1889" style="stop-color:#039790"/>
+				<stop  offset="0.3556" style="stop-color:#03BDA0"/>
+				<stop  offset="0.5208" style="stop-color:#03DAAD"/>
+				<stop  offset="0.6841" style="stop-color:#03EEB6"/>
+				<stop  offset="0.8449" style="stop-color:#03FBBB"/>
+				<stop  offset="1" style="stop-color:#03FFBD"/>
+			</linearGradient>
+			<path ng-attr-transform="{{grid.flow3.transform}}" ng-attr-fill="{{grid.flow3.fill}}" d="M481.423,157.575c-1.109-0.146-1.442-0.572-0.585-0.871l15.281-5.328
+				c0.855-0.298,1.814-0.09,1.979,0.389l2.617,7.555c0.165,0.48-0.646,0.731-1.752,0.585L481.423,157.575z">
+				<animateMotion class="path1_1" ng-attr-path="{{grid.flow3.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g display="inline">
+				<linearGradient id="grid_arrow4" gradientUnits="userSpaceOnUse" x1="169.4189" y1="359.7483" x2="171.8196" y2="368.7076" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#03637A"/>
+				<stop  offset="0.0233" style="stop-color:#036A7D"/>
+				<stop  offset="0.1889" style="stop-color:#039790"/>
+				<stop  offset="0.3556" style="stop-color:#03BDA0"/>
+				<stop  offset="0.5208" style="stop-color:#03DAAD"/>
+				<stop  offset="0.6841" style="stop-color:#03EEB6"/>
+				<stop  offset="0.8449" style="stop-color:#03FBBB"/>
+				<stop  offset="1" style="stop-color:#03FFBD"/>
+			</linearGradient>
+			<path ng-attr-transform="{{grid.flow4.transform}}" ng-attr-fill="{{grid.flow4.fill}}" d="M468.803,119.304c-1.109,0.144-1.442,0.572-0.585,0.87L483.5,125.5
+				c0.854,0.297,1.813,0.09,1.978-0.387l2.618-7.556c0.164-0.48-0.646-0.73-1.752-0.586L468.803,119.304z">
+				<animateMotion class="path1_1" ng-attr-path="{{grid.flow4.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g display="inline">
+
+				<linearGradient id="grid_arrow5" gradientUnits="userSpaceOnUse" x1="503.3721" y1="250.2751" x2="505.7727" y2="259.2345" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#03637A"/>
+				<stop  offset="0.0233" style="stop-color:#036A7D"/>
+				<stop  offset="0.1889" style="stop-color:#039790"/>
+				<stop  offset="0.3556" style="stop-color:#03BDA0"/>
+				<stop  offset="0.5208" style="stop-color:#03DAAD"/>
+				<stop  offset="0.6841" style="stop-color:#03EEB6"/>
+				<stop  offset="0.8449" style="stop-color:#03FBBB"/>
+				<stop  offset="1" style="stop-color:#03FFBD"/>
+			</linearGradient>
+			<path ng-attr-transform="{{grid.flow5.transform}}" ng-attr-fill="{{grid.flow5.fill}}" d="M802.756,228.778c-1.108,0.144-1.441,0.572-0.584,0.87l15.281,5.326
+				c0.854,0.297,1.813,0.09,1.978-0.387l2.618-7.556c0.164-0.48-0.646-0.73-1.752-0.586L802.756,228.778z">
+				<animateMotion class="path1_1" ng-attr-path="{{grid.flow5.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g display="inline">
+
+				<linearGradient id="grid_arrow6" gradientUnits="userSpaceOnUse" x1="666.0371" y1="297.177" x2="668.4381" y2="288.2162" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#03637A"/>
+				<stop  offset="0.0233" style="stop-color:#036A7D"/>
+				<stop  offset="0.1889" style="stop-color:#039790"/>
+				<stop  offset="0.3556" style="stop-color:#03BDA0"/>
+				<stop  offset="0.5208" style="stop-color:#03DAAD"/>
+				<stop  offset="0.6841" style="stop-color:#03EEB6"/>
+				<stop  offset="0.8449" style="stop-color:#03FBBB"/>
+				<stop  offset="1" style="stop-color:#03FFBD"/>
+			</linearGradient>
+			<path ng-attr-transform="{{grid.flow6.transform}}" ng-attr-fill="{{grid.flow6.fill}}" d="M965.423,190.575c-1.108-0.146-1.442-0.572-0.585-0.871l15.281-5.328
+				c0.855-0.298,1.814-0.09,1.979,0.389l2.617,7.555c0.165,0.48-0.646,0.731-1.752,0.585L965.423,190.575z">
+				<animateMotion class="path1_1" ng-attr-path="{{grid.flow6.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+	</g>
+	<g id="sun_arrow">
+		<g display="inline">
+			<linearGradient id="sun_arrow1" gradientUnits="userSpaceOnUse" x1="403.3462" y1="96.5828" x2="400.0569" y2="105.62" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#FF4500"/>
+				<stop  offset="0.1047" style="stop-color:#FF5500"/>
+				<stop  offset="0.3331" style="stop-color:#FF7200"/>
+				<stop  offset="0.5604" style="stop-color:#FF8600"/>
+				<stop  offset="0.7841" style="stop-color:#FF9300"/>
+				<stop  offset="1" style="stop-color:#FF9700"/>
+			</linearGradient>
+			<path ng-attr-transform="{{pv.flow1.transform}}" ng-attr-fill="{{pv.flow1.fill}}" d="M718.053,382.984c1.111,0.146,1.445,0.575,0.588,0.873l-15.279,5.326
+				c-0.857,0.298-1.816,0.09-1.979-0.389l-2.618-7.556c-0.165-0.479,0.646-0.729,1.753-0.585L718.053,382.984z">
+		
+				<animateMotion class="path1_1" ng-attr-path="{{pv.flow1.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g display="inline">
+			<linearGradient id="sun_arrow2" gradientUnits="userSpaceOnUse" x1="285.918" y1="169.2747" x2="288.3186" y2="178.234" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#FF4500"/>
+				<stop  offset="0.1047" style="stop-color:#FF5500"/>
+				<stop  offset="0.3331" style="stop-color:#FF7200"/>
+				<stop  offset="0.5604" style="stop-color:#FF8600"/>
+				<stop  offset="0.7841" style="stop-color:#FF9300"/>
+				<stop  offset="1" style="stop-color:#FF9700"/>
+			</linearGradient>
+			<path ng-attr-transform="{{pv.flow2.transform}}" ng-attr-fill="{{pv.flow2.fill}}" d="M585.304,309.778c-1.108,0.144-1.442,0.572-0.586,0.87l15.28,5.326
+				c0.855,0.297,1.814,0.09,1.979-0.387l2.617-7.556c0.165-0.48-0.646-0.73-1.751-0.586L585.304,309.778z">
+				<animateMotion class="path1_1" ng-attr-path="{{pv.flow2.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g display="inline">
+			<linearGradient id="sun_arrow3" gradientUnits="userSpaceOnUse" x1="524.9175" y1="256.2751" x2="527.3181" y2="265.2345" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#FF4500"/>
+				<stop  offset="0.1047" style="stop-color:#FF5500"/>
+				<stop  offset="0.3331" style="stop-color:#FF7200"/>
+				<stop  offset="0.5604" style="stop-color:#FF8600"/>
+				<stop  offset="0.7841" style="stop-color:#FF9300"/>
+				<stop  offset="1" style="stop-color:#FF9700"/>
+			</linearGradient>
+			<path ng-attr-transform="{{pv.flow3.transform}}" ng-attr-fill="{{pv.flow3.fill}}" d="M824.305,222.778c-1.109,0.144-1.443,0.572-0.587,0.87l15.28,5.326
+				c0.855,0.297,1.814,0.09,1.979-0.387l2.617-7.556c0.165-0.48-0.646-0.73-1.751-0.586L824.305,222.778z">
+				<animateMotion class="path1_1" ng-attr-path="{{pv.flow3.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g display="inline">
+			<linearGradient id="sun_arrow4" gradientUnits="userSpaceOnUse" x1="674.917" y1="294.177" x2="677.3182" y2="285.2158" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#FF4500"/>
+				<stop  offset="0.1047" style="stop-color:#FF5500"/>
+				<stop  offset="0.3331" style="stop-color:#FF7200"/>
+				<stop  offset="0.5604" style="stop-color:#FF8600"/>
+				<stop  offset="0.7841" style="stop-color:#FF9300"/>
+				<stop  offset="1" style="stop-color:#FF9700"/>
+			</linearGradient>
+			<path ng-attr-transform="{{pv.flow4.transform}}" ng-attr-fill="{{pv.flow4.fill}}" d="M974.305,193.575c-1.109-0.146-1.443-0.572-0.587-0.871l15.28-5.328
+				c0.855-0.298,1.814-0.09,1.979,0.389l2.617,7.555c0.165,0.48-0.646,0.731-1.751,0.585L974.305,193.575z">
+				<animateMotion class="path1_1" ng-attr-path="{{pv.flow4.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g display="inline">
+			<linearGradient id="sun_arrow5" gradientUnits="userSpaceOnUse" x1="352.3462" y1="270.5833" x2="349.0569" y2="279.6205" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#FF4500"/>
+				<stop  offset="0.1047" style="stop-color:#FF5500"/>
+				<stop  offset="0.3331" style="stop-color:#FF7200"/>
+				<stop  offset="0.5604" style="stop-color:#FF8600"/>
+				<stop  offset="0.7841" style="stop-color:#FF9300"/>
+				<stop  offset="1" style="stop-color:#FF9700"/>
+			</linearGradient>
+			<path ng-attr-transform="{{pv.flow5.transform}}" ng-attr-fill="{{pv.flow5.fill}}" d="M667.053,208.984c1.111,0.146,1.445,0.575,0.588,0.873l-15.279,5.326
+				c-0.857,0.298-1.816,0.09-1.979-0.389l-2.618-7.556c-0.165-0.479,0.646-0.729,1.753-0.585L667.053,208.984z">
+				<animateMotion class="path1_1" ng-attr-path="{{pv.flow5.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g display="inline">
+			<linearGradient id="sun_arrow6" gradientUnits="userSpaceOnUse" x1="173.918" y1="362.2737" x2="176.3188" y2="371.234" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#FF4500"/>
+				<stop  offset="0.1047" style="stop-color:#FF5500"/>
+				<stop  offset="0.3331" style="stop-color:#FF7200"/>
+				<stop  offset="0.5604" style="stop-color:#FF8600"/>
+				<stop  offset="0.7841" style="stop-color:#FF9300"/>
+				<stop  offset="1" style="stop-color:#FF9700"/>
+			</linearGradient>
+			<path ng-attr-transform="{{pv.flow6.transform}}" ng-attr-fill="{{pv.flow6.fill}}" d="M473.304,116.778c-1.108,0.144-1.442,0.572-0.586,0.87l15.28,5.326
+				c0.855,0.297,1.814,0.09,1.979-0.387l2.617-7.556c0.165-0.48-0.646-0.73-1.751-0.586L473.304,116.778z">
+				<animateMotion class="path1_1" ng-attr-path="{{pv.flow6.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+	</g>
+	<g id="battery_arrow">
+		<g>
+			<linearGradient id="battery_arrow1" gradientUnits="userSpaceOnUse" x1="779.4668" y1="260.8772" x2="776.1775" y2="269.9144" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#828282"/>
+				<stop  offset="0.093" style="stop-color:#989898"/>
+				<stop  offset="0.2779" style="stop-color:#BDBDBD"/>
+				<stop  offset="0.463" style="stop-color:#DADADA"/>
+				<stop  offset="0.646" style="stop-color:#EEEEEE"/>
+				<stop  offset="0.8262" style="stop-color:#FBFBFB"/>
+				<stop  offset="1" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<path ng-attr-transform="{{battery.flow1.transform}}" ng-attr-fill="{{battery.flow1.fill}}" d="M1094.173,218.69c1.111,0.146,1.445,0.575,0.588,0.873l-15.281,5.326
+				c-0.856,0.298-1.814,0.09-1.979-0.389l-2.615-7.556c-0.166-0.479,0.646-0.729,1.752-0.585L1094.173,218.69z">
+				<animateMotion class="path1_1" ng-attr-path="{{battery.flow1.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g>
+			<linearGradient id="battery_arrow2" gradientUnits="userSpaceOnUse" x1="621.2266" y1="295.8674" x2="617.9379" y2="286.8321" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#828282"/>
+				<stop  offset="0.093" style="stop-color:#989898"/>
+				<stop  offset="0.2779" style="stop-color:#BDBDBD"/>
+				<stop  offset="0.463" style="stop-color:#DADADA"/>
+				<stop  offset="0.646" style="stop-color:#EEEEEE"/>
+				<stop  offset="0.8262" style="stop-color:#FBFBFB"/>
+				<stop  offset="1" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<path ng-attr-transform="{{battery.flow2.transform}}" ng-attr-fill="{{battery.flow2.fill}}"  d="M935.934,191.367c1.111-0.146,1.445-0.574,0.588-0.873l-15.281-5.328
+				c-0.856-0.297-1.814-0.088-1.979,0.391l-2.614,7.555c-0.168,0.479,0.646,0.729,1.752,0.586L935.934,191.367z">
+				<animateMotion class="path1_1" ng-attr-path="{{battery.flow2.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g>
+			<linearGradient id="battery_arrow3" gradientUnits="userSpaceOnUse" x1="365.2275" y1="266.5842" x2="361.938" y2="275.6219" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#828282"/>
+				<stop  offset="0.093" style="stop-color:#989898"/>
+				<stop  offset="0.2779" style="stop-color:#BDBDBD"/>
+				<stop  offset="0.463" style="stop-color:#DADADA"/>
+				<stop  offset="0.646" style="stop-color:#EEEEEE"/>
+				<stop  offset="0.8262" style="stop-color:#FBFBFB"/>
+				<stop  offset="1" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<path ng-attr-transform="{{battery.flow3.transform}}" ng-attr-fill="{{battery.flow3.fill}}"  d="M679.934,212.984c1.111,0.146,1.445,0.575,0.588,0.873l-15.281,5.326
+				c-0.856,0.298-1.814,0.09-1.979-0.389l-2.615-7.556c-0.167-0.479,0.646-0.729,1.752-0.585L679.934,212.984z">
+				<animateMotion class="path1_1" ng-attr-path="{{battery.flow3.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+		<g>
+			<linearGradient id="battery_arrow4" gradientUnits="userSpaceOnUse" x1="172.7979" y1="360.2747" x2="175.1985" y2="369.234" gradientTransform="matrix(1 0 0 -1 307.1602 483.4009)">
+				<stop  offset="0" style="stop-color:#828282"/>
+				<stop  offset="0.093" style="stop-color:#989898"/>
+				<stop  offset="0.2779" style="stop-color:#BDBDBD"/>
+				<stop  offset="0.463" style="stop-color:#DADADA"/>
+				<stop  offset="0.646" style="stop-color:#EEEEEE"/>
+				<stop  offset="0.8262" style="stop-color:#FBFBFB"/>
+				<stop  offset="1" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<path ng-attr-transform="{{battery.flow4.transform}}" ng-attr-fill="{{battery.flow4.fill}}"  d="M472.184,118.778c-1.108,0.144-1.444,0.572-0.587,0.87l15.283,5.326
+				c0.854,0.297,1.813,0.09,1.979-0.387l2.615-7.556c0.166-0.48-0.646-0.73-1.752-0.586L472.184,118.778z">
+				<animateMotion class="path1_1" ng-attr-path="{{battery.flow4.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+			</path>
+		</g>
+	</g>
+</g>
+<g id="box"><!-- 데이터 박스 -->
+	<polygon opacity="0.5" fill="#0E162C" enable-background="new    " points="353,184 353,237.74 347.063,243.438 353,249.515 353,285 536,285 536,184 	"/>
+	<polygon opacity="0.5" fill="#0E162C" enable-background="new    " points="804,156 804,209.74 798.063,215.438 804,221.516 804,267 987,267 987,156 	"/>
+	<polygon opacity="0.5" fill="#0E162C" enable-background="new    " points="1230,194 1230,247.74 1224.063,253.438 1230,259.516 1230,285 1413,285 1413,194 	"/>
+</g>
+<g id="object">
+	<g id="factory">
+		<g id="factory_chimney">
+			<polygon fill="#ADB1BA" points="582.855,27.19 592.98,21.464 602.76,27.014 592.817,32.822 			"/>
+			<polygon fill="#868C9C" points="582.855,27.19 578.186,80.146 592.808,88.643 592.808,32.828 			"/>
+			<polygon fill="#6E7280" points="602.76,27.014 606.903,80.261 592.808,88.643 592.808,32.828 			"/>
+			<polygon fill="#9FA3AB" points="592.808,50.847 604.105,44.301 604.358,48.193 592.808,54.846 		"/>
+			<ellipse fill="#868C9C" cx="592.59" cy="27.014" rx="4.8" ry="2.881"/>
+			<polygon fill="#ADB1BA" points="581.368,44.232 592.808,50.847 592.808,54.846 580.968,48.059 		"/>
+			<polygon fill="#9FA3AB" points="592.811,65.846 604.108,59.3 604.361,63.192 592.811,69.845 		"/>
+			<polygon fill="#ADB1BA" points="580.095,58.595 592.811,65.846 592.811,69.845 579.746,62.45 		"/>
+			<polygon fill="#868C9C" points="589.583,5.273 587.79,27.014 597.39,26.781 595.596,5.487 		"/>
+			<ellipse fill="#EBEBEB" cx="592.59" cy="5.487" rx="3.006" ry="1.805"/>
+			<ellipse fill="#6E7280" cx="592.59" cy="5.487" rx="1.68" ry="1.008"/>
+		</g>
+		<g id="factory_building">
+			<polygon fill="#D6A751" points="632.174,27.105 632.174,72.733 662.245,90.067 662.245,44.542 			"/>
+			<polygon fill="#D69F51" points="616.005,36.599 616.005,82.226 646.075,99.56 646.075,54.035 			"/>
+			<polygon fill="#D6AF51" points="599.769,46.042 599.769,91.668 629.839,109.003 629.839,63.478 			"/>
+			<polygon fill="#EDC61A" points="629.839,63.458 646.032,72.747 646.032,54.007 662.245,63.307 662.245,44.536 676.666,55.041
+				676.666,81.795 662.269,90.067 662.269,90.075 646.032,99.551 646.032,99.551 629.839,109.003 			"/>
+		</g>
+		<g id="factory_window">
+			<polygon fill="url('#on-gradient')" points="634.411,75.235 634.411,88.969 641.954,84.519 641.954,79.382 		"/>
+			<polygon fill="url('#on-gradient')" points="651.15,66.057 651.15,79.15 658.694,74.699 658.694,69.977 		"/>
+			<polygon fill="url('#on-gradient')" points="666.279,57.247 666.279,70.34 673.823,65.889 673.823,61.167 		"/>
+		</g>
+		<g id="factory_data">
+			<g id="factory_status"></g>
+			<g id="factory_badge"></g>
+			<g id="factory_info">
+				<text transform="matrix(1 0 0 1 689.4849 52.5696)" fill="#6A8DF1" font-family="'NanumSquareEB'" font-size="14">Factory</text>
+				<text transform="matrix(1 0 0 1 689.4849 73.5696)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="14">780 kWh</text>
+			</g>
+		</g>
+	</g>
+	<g id="grid">
+		<g id="grid_data">
+			<g id="grid_status"></g>
+			<g id="grid_badge"></g>
+			<g id="grid_info">
+				<text transform="matrix(1 0 0 1 367.2349 207.0696)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">FREQ</text>
+				<text transform="matrix(1 0 0 1 501.7349 207.0696)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11" text-anchor="middle">{{pcs.gridrst.hz}}Hz</text>
+				<text transform="matrix(1 0 0 1 367.2349 224.3196)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">DC Link</text>
+				<text transform="matrix(1 0 0 1 501.7349 224.3196)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11" text-anchor="middle">{{pcs.dclinkv}} V</text>
+				<text transform="matrix(1 0 0 1 368.4849 249.0696)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">rv</text>
+				<text transform="matrix(1 0 0 1 384.7349 249.0696)" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.gridrst.rv}}</text>
+				<text transform="matrix(1 0 0 1 426.7349 249.0696)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">sv</text>
+				<text transform="matrix(1 0 0 1 442.9849 249.0696)" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.gridrst.sv}}</text>
+				<text transform="matrix(1 0 0 1 481.4849 249.0696)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">tv</text>
+				<text transform="matrix(1 0 0 1 497.7349 249.0696)" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.gridrst.tv}}</text>
+				<text transform="matrix(1 0 0 1 368.4849 264.8206)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">ra</text>
+				<text transform="matrix(1 0 0 1 384.7349 264.8206)" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.gridrst.ra}}</text>
+				<text transform="matrix(1 0 0 1 426.7349 264.8206)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">sa</text>
+				<text transform="matrix(1 0 0 1 442.9849 264.8206)" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.gridrst.sa}}</text>
+				<text transform="matrix(1 0 0 1 481.4849 264.8206)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">ta</text>
+				<text transform="matrix(1 0 0 1 497.7349 264.8206)" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.gridrst.ta}}</text>
+				<text transform="matrix(1 0 0 1 364.4849 173.5696)" fill="#6A8DF1" font-family="'NanumSquareEB'" font-size="14">GRID</text>
+			</g>
+		</g>
+		<polygon fill="#ACACAC" points="314.073,170.404 306.952,184.231 321.343,173.401 	"/>
+		<polygon fill="#B0B0B0" points="317.362,182.893 315.349,186.16 322.233,186.664 316.877,183.741 	"/>
+		<polygon fill="#B0B0B0" points="313.839,186.027 309.979,183.771 307.516,185.685 	"/>
+		<polygon fill="#9D9D9D" points="305.943,187.406 305.884,199.037 312.917,188.029 	"/>
+		<polygon fill="#ACACAC" points="320.809,188.534 314.192,188.058 307.516,198.592 	"/>
+		<polygon fill="#C7C7C7" points="307.516,200.372 313.806,200.793 309.867,198.583 	"/>
+		<polygon fill="#B0B0B0" points="315.29,200.966 322.145,201.381 322.145,201.328 316.87,198.459 	"/>
+		<polygon fill="#9B9B9B" points="306.063,213.666 312.887,202.776 305.973,202.331 	"/>
+		<polygon fill="#DFDFDF" points="314.133,202.895 307.605,213.25 320.749,203.31 	"/>
+		<polygon fill="#B0B0B0" points="315.409,215.653 322.322,216.276 316.916,213.263 	"/>
+		<polygon fill="#9B9B9B" points="305.913,228.589 312.856,217.494 305.943,216.989 	"/>
+		<polygon fill="#ACACAC" points="314.073,217.671 307.635,228.026 320.779,218.086 	"/>
+		<polygon fill="#B0B0B0" points="313.861,230.441 309.966,228.091 307.486,229.985 	"/>
+		<polygon fill="#B0B0B0" points="322.151,230.983 316.948,228.01 315.379,230.548 	"/>
+		<polygon fill="#9B9B9B" points="312.887,232.299 305.943,231.735 305.973,243.248 	"/>
+		<polygon fill="#ACACAC" points="314.222,232.388 307.783,242.833 320.779,232.922 	"/>
+		<polygon fill="#B3B3B3" points="308.02,244.435 313.974,244.206 310.826,242.292 	"/>
+		<polygon fill="#B3B3B3" points="318.615,239.61 315.706,244.02 325.645,243.574 325.594,243.412 	"/>
+		<polygon fill="#9C9C9C" points="312.856,246.126 305.647,246.512 302.709,261.229 	"/>
+		<path fill="#B4B4B4" d="M302.976,262.86l10.658-1.593c-1.722-1.014-6.063-3.413-6.961-3.909 C304.635,260.378,302.987,262.827,302.976,262.86z"/>
+		<polygon fill="#9E9E9E" points="323.021,261.877 332.885,267.311 330.897,260.813 	"/>
+		<polygon fill="#3F7AFF" points="322.975,261.852 323.021,261.877 330.897,260.813 	"/>
+		<polygon fill="#9E9E9E" points="297.991,283.364 312.501,263.336 301.908,264.879 	"/>
+		<polygon fill="#ACACAC" points="323.42,203.369 323.42,216.01 342.083,201.678 	"/>
+		<polygon fill="#ACACAC" points="323.42,173.816 323.42,186.278 342.024,172.126 	"/>
+		<polygon fill="#9B9B9B" points="314.103,186.042 320.69,175.448 309.979,183.771 313.839,186.027 	"/>
+		<polygon fill="#828282" points="317.362,182.893 316.877,183.741 322.233,186.664 322.203,175.033 	"/>
+		<polygon fill="#9B9B9B" points="320.69,190.343 309.867,198.583 313.806,200.793 314.163,200.817 	"/>
+		<polygon fill="#828282" points="316.87,198.459 322.145,201.328 322.263,189.899 	"/>
+		<polygon fill="#828282" points="316.916,213.263 322.322,216.276 322.292,204.734 	"/>
+		<polygon fill="#9B9B9B" points="314.103,230.459 320.661,219.926 309.966,228.091 313.861,230.441 	"/>
+		<polygon fill="#828282" points="322.322,230.993 322.203,219.51 316.948,228.01 322.151,230.983 	"/>
+		<polygon fill="#9C9C9C" points="320.305,235.059 310.826,242.292 313.974,244.206 314.192,244.197 	"/>
+		<polygon fill="#828282" points="322.56,233.634 318.615,239.61 325.594,243.412 	"/>
+		<path fill="#9E9E9E" d="M325.2,245.563l-10.86,0.444c0,0-4.351,6.435-7.667,11.352c0.898,0.497,5.239,2.896,6.961,3.909 l0.261-0.038L325.2,245.563z"/>
+		<polygon fill="#B4B4B4" points="330.228,258.93 320.865,253.76 315.676,261.08 	"/>
+		<polygon fill="#808080" points="330.333,258.914 326.298,246.097 320.865,253.76 330.228,258.93 	"/>
+		<polygon fill="#ACACAC" points="298.306,197.496 285.945,215 304.549,200.817 304.548,200.725 	"/>
+		<polygon fill="#828282" points="304.489,188.741 298.306,197.496 304.548,200.725 	"/>
+		<polygon fill="#ACACAC" points="286.093,244.494 304.658,230.349 298.319,226.949 	"/>
+		<polygon fill="#828282" points="304.578,217.968 298.319,226.949 304.658,230.349 304.667,230.34 	"/>
+		<path fill="#969696" d="M314.34,168.565c0,0-0.267-0.208-0.801,0.742c-0.535,0.949-8.753,17.001-8.753,17.001l-14.628-7.833 l8.783-17.209c0,0,0.416-0.891,1.039-0.623S314.34,168.565,314.34,168.565z"/>
+		<path fill="#9D9D9D" d="M283.156,217.375l21.63-31.186l-14.598-7.893l-21.601,31.037c0,0-0.653,0.801,0.089,1.481l13.945,7.774 C282.622,218.59,282.8,217.611,283.156,217.375z"/>
+		<polygon fill="#B4B4B4" points="323.271,171.858 345.377,170.049 330.957,162.037 309.029,164.055 	"/>
+		<path fill="#A4A4A4" d="M299.712,160.613l9.465,3.472l14.094,7.773l-8.396-3.353c0,0-0.564-0.237-0.772,0.029 C313.895,168.803,299.712,160.613,299.712,160.613z"/>
+		<polygon fill="#B4B4B4" points="323.658,192.243 331.075,191.619 345.407,199.601 323.539,201.53 	"/>
+		<path fill="#898989" d="M293.985,296.656l10.563-50.679l-10.355-5.756l-5.489,3.975l-9.228,44.359c0,0-0.475,0.119,1.365,1.039 S293.985,296.656,293.985,296.656z"/>
+		<polygon fill="#828282" points="304.371,232.21 304.371,245.918 293.837,240.222 	"/>
+		<polygon fill="#828282" points="304.489,202.716 304.608,215.92 294.253,210.283 	"/>
+		<path fill="#9D9D9D" d="M282.71,248.411c0,0-0.652,0,0.831-2.137c1.484-2.137,21.067-30.354,21.067-30.354l-10.237-5.547 l-5.459,1.246l-6.291,7.209l-14.212,20.177c0,0-0.712,0.979-0.089,1.543L282.71,248.411z"/>
+		<path fill="#E2E2E2" stroke="#E2E2E2" stroke-width="0.25" stroke-miterlimit="10" d="M344.873,199.631l-21.304,1.929l-0.06-13.529
+			c0,0,21.067-15.963,21.809-16.586c0.742-0.623,0.148-1.42,0.148-1.42l-21.957,1.993c0,0-8.426-3.282-9.049-3.46
+			c-0.623-0.179-0.979,0.764-0.979,0.764l-8.842,16.987c0,0-21.393,30.265-21.957,31.629c-0.564,1.365,0.564,0.92,0.564,0.92
+			l21.274-16.229l0.03,13.322c0,0-20.741,29.671-21.631,31.065c-0.89,1.396-0.089,1.603-0.089,1.603l21.542-16.408v13.855
+			c0,0-9.94,48.395-10.178,49.642c-0.237,1.246-0.044,1.544,0.43,1.306c0.475-0.237,0.705-1.336,0.705-1.336l2.059-9.554
+			l16.591-23.025l9.04-1.221l-0.045-0.025l7.923-1.038c0,0,1.424,4.569,1.78,5.578s0.505,0.979,1.068,0.504
+			c0.563-0.475,0.416-1.097,0.416-1.097l-10.503-33.944l-0.089-14.125c0,0,21.809-16.646,21.986-17.445
+			C345.733,199.483,344.873,199.631,344.873,199.631z M323.42,173.816l18.604-1.689l-18.604,14.151V173.816z M322.322,216.276
+			l-6.914-0.624l6.884-10.918L322.322,216.276z M307.783,242.833l6.438-10.444l6.557,0.534L307.783,242.833z M320.305,235.059
+			l-6.113,9.138l-6.172,0.238L320.305,235.059z M314.192,188.058l6.617,0.477l-13.293,10.059L314.192,188.058z M314.103,186.042
+			l-6.587-0.356l13.174-10.236L314.103,186.042z M307.635,228.026l6.438-10.354l6.706,0.415L307.635,228.026z M320.661,219.926
+			l-6.558,10.533l-6.617-0.475L320.661,219.926z M307.516,200.372l13.174-10.029l-6.527,10.475L307.516,200.372z M320.749,203.31
+			l-13.144,9.94l6.528-10.355L320.749,203.31z M312.887,202.776l-6.824,10.891l-0.089-11.335L312.887,202.776z M312.856,217.494
+			l-6.943,11.096l0.03-11.602L312.856,217.494z M312.887,232.299l-6.914,10.949l-0.03-11.513L312.887,232.299z M315.379,230.548
+			l6.824-11.038l0.119,11.483L315.379,230.548z M322.145,201.381l-6.854-0.415l6.973-11.067L322.145,201.381z M322.233,186.664
+			l-6.884-0.504l6.854-11.127L322.233,186.664z M314.073,170.404l7.27,2.997l-14.391,10.831L314.073,170.404z M305.943,187.406
+			l6.973,0.622l-7.032,11.009L305.943,187.406z M285.945,215l18.544-26.259l0.06,12.075L285.945,215z M286.093,244.494l18.485-26.526
+			l0.089,12.373L286.093,244.494z M305.647,246.512l7.209-0.386l-10.147,15.104L305.647,246.512z M297.991,283.364l3.917-18.484
+			l10.593-1.543L297.991,283.364z M313.895,261.229l-10.919,1.631c0.03-0.089,11.365-16.854,11.365-16.854l10.86-0.444
+			L313.895,261.229z M330.333,258.914l-14.658,2.166l10.622-14.983L330.333,258.914z M325.645,243.574l-9.939,0.444l6.854-10.385
+			L325.645,243.574z M323.42,216.01v-12.641l18.663-1.691L323.42,216.01z"/>
+	</g>
+	<g id="pcs">
+	<!--
+		<polygon fill="#EEEEEF" points="702.557,189.539 760.737,223.131 760.737,270.63 702.557,237.033 		"/>
+		<polygon fill="#F7F7F7" points="702.557,189.539 728.515,174.293 786.92,207.825 760.737,223.131 		"/>
+		<polygon fill="#DBDCDC" points="786.92,207.825 787.05,254.356 760.737,270.63 760.737,223.131 		"/>
+	 -->
+		<!-- left -->
+		<polygon ng-attr-fill="{{pcsOn.left}}" points="702.557,189.539 760.737,223.131 760.737,270.63 702.557,237.033 		"/>
+		<!-- top -->
+		<polygon ng-attr-fill="{{pcsOn.top}}" points="702.557,189.539 728.515,174.293 786.92,207.825 760.737,223.131 		"/>
+		<!-- right -->
+		<polygon ng-attr-fill="{{pcsOn.right}}" points="786.92,207.825 787.05,254.356 760.737,270.63 760.737,223.131 		"/>
+		<g>
+			<polygon ng-attr-fill="#d9d7dd"   points="753.305,196.902 760.691,201.068 760.691,209.777 753.305,205.493 			"/>
+			<polygon ng-attr-fill="#eeedf2" points="753.305,196.902 759.282,193.35 766.65,197.531 760.691,201.068 			"/>
+			<polygon ng-attr-fill="#bebebf"  points="766.65,197.531 766.65,206.313 760.691,209.777 760.691,201.068 			"/>
+
+			<polygon ng-attr-fill="#d9d7dd"   points="724.166,180.854 731.553,185.021 731.553,193.729 724.166,189.445 			"/>
+			<polygon ng-attr-fill="#eeedf2" points="724.166,180.854 730.143,177.303 737.513,181.484 731.553,185.021 			"/>
+			<polygon ng-attr-fill="#bebebf"  points="737.513,181.484 737.513,190.266 731.553,193.729 731.553,185.021 			"/>
+		</g>
+		<g id="pcs_symbol">
+			<path fill="#ffffff" d="M709.986,236.02c-0.513,0-0.976-0.352-1.097-0.872c-0.141-0.604,0.237-1.211,0.843-1.351l42.468-9.854
+				c0.605-0.139,1.211,0.237,1.352,0.843c0.142,0.605-0.235,1.211-0.843,1.351l-42.468,9.854
+				C710.156,236.01,710.071,236.02,709.986,236.02z"/>
+			<path fill="#ffffff" d="M725.737,215.383c-0.003,1.021-0.374,1.696-1.115,2.022c-0.741,0.327-1.624,0.199-2.644-0.385
+				c-1.125-0.643-2.492-2.074-4.101-4.295l-1.057-1.468c-1.076-1.488-1.99-2.448-2.743-2.878c-0.813-0.463-1.493-0.585-2.048-0.366
+				c-0.134,0.043-0.423,0.579-0.865,1.608c-0.135,0.311-0.245,0.495-0.333,0.556c-0.143,0.067-0.377,0.008-0.701-0.177
+				c-0.695-0.398-1.042-1.093-1.039-2.084c0.004-1.271,0.486-2.079,1.448-2.43c0.961-0.35,2.15-0.118,3.573,0.692
+				c1.277,0.73,2.635,2.097,4.07,4.099l0.957,1.338c1.284,1.786,2.279,2.882,2.985,3.284c0.716,0.409,1.203,0.201,1.462-0.625
+				c0.165-0.481,0.281-0.77,0.348-0.86c0.164-0.176,0.411-0.167,0.745,0.023C725.388,213.842,725.739,214.49,725.737,215.383z"/>
+			<path fill="#ffffff" d="M725.72,222.149c-0.003,1.023-0.375,1.697-1.116,2.024s-1.623,0.199-2.645-0.385
+				c-1.125-0.643-2.491-2.075-4.102-4.297l-1.057-1.469c-1.076-1.488-1.99-2.45-2.745-2.881c-0.81-0.463-1.492-0.585-2.047-0.364
+				c-0.134,0.042-0.423,0.579-0.865,1.608c-0.135,0.311-0.245,0.496-0.333,0.556c-0.144,0.067-0.377,0.009-0.699-0.178
+				c-0.697-0.396-1.045-1.093-1.041-2.085c0.003-1.27,0.484-2.08,1.447-2.431c0.96-0.351,2.152-0.119,3.574,0.691
+				c1.277,0.73,2.636,2.098,4.071,4.103l0.958,1.336c1.285,1.789,2.279,2.884,2.986,3.287c0.715,0.409,1.202,0.201,1.463-0.625
+				c0.164-0.483,0.279-0.771,0.347-0.862c0.163-0.175,0.413-0.167,0.746,0.023C725.371,220.607,725.722,221.255,725.72,222.149z"/>
+			<path fill="#ffffff" d="M749.348,246.397c-0.234,0-0.477-0.06-0.695-0.186l-14.262-8.15c-0.675-0.385-0.908-1.245-0.523-1.92
+				c0.386-0.676,1.248-0.91,1.921-0.522l14.262,8.149c0.675,0.385,0.908,1.245,0.523,1.92
+				C750.313,246.143,749.838,246.397,749.348,246.397z"/>
+			<path fill="#ffffff" d="M749.339,252.764c-0.237,0-0.477-0.06-0.698-0.186l-14.264-8.153c-0.675-0.386-0.908-1.246-0.523-1.921
+				c0.387-0.675,1.246-0.909,1.92-0.523l14.266,8.153c0.676,0.386,0.91,1.246,0.523,1.92
+				C750.303,252.509,749.827,252.764,749.339,252.764z"/>
+		</g>
+		<g id="pcs_data">
+			<g id="pcs_badge">
+				<!-- fault -->
+				<path fill="#E63544" d="M729.855,174.617c0,1.104-0.896,2-2,2H705.02c-1.104,0-2-0.896-2-2v-12.831c0-1.105,0.896-2,2-2h22.836
+					c1.104,0,2,0.895,2,2V174.617z"/>
+				<!-- warning -->
+				<path fill="#EE8F2A" d="M760.723,174.617c0,1.104-0.896,2-2,2h-22.834c-1.104,0-2.002-0.896-2.002-2v-12.831
+					c0-1.105,0.897-2,2.002-2h22.836c1.104,0,2,0.895,2,2L760.723,174.617L760.723,174.617z"/>
+				<!-- Alram  -->
+				<path fill="#edc61a" d="M792.313,174.617c0,1.104-0.896,2-1.998,2h-22.839c-1.104,0-2.001-0.896-2.001-2v-12.831
+					c0-1.105,0.896-2,2.001-2h22.839c1.103,0,1.998,0.895,1.998,2V174.617z"/>
+				<text transform="matrix(1 0 0 1 716.4849 172.5696)" fill="#FFFFFF" text-anchor="middle" font-family="'NanumSquareEB'" font-size="12.0017">{{cnt_pcs_F}}</text>
+				<text transform="matrix(1 0 0 1 747.627 172.5696)" fill="#FFFFFF"  text-anchor="middle"font-family="'NanumSquareEB'" font-size="12.0017">{{cnt_pcs_W}}</text>
+				<text transform="matrix(1 0 0 1 779.0117 172.5696)" fill="#FFFFFF" text-anchor="middle" font-family="'NanumSquareEB'" font-size="12.0017">{{cnt_pcs_A}}</text>
+			</g>
+			<g id="pcs_status">
+				<path xmlns="http://www.w3.org/2000/svg" ng-attr-fill="{{pcsOn.top}}" d="M808.5,127h-117c-5.799,0-10.5,4.701-10.5,10.5s4.701,10.5,10.5,10.5h53.479l4.229,4.231l3.877-4.231H808.5   c5.799,0,10.5-4.701,10.5-10.5S814.299,127,808.5,127z"/>
+				<!--<path ng-attr-fill="{{pcsOn.top}}" d="M785.5,127h-71c-5.799,0-10.5,4.701-10.5,10.5s4.701,10.5,10.5,10.5h30.479l4.229,4.23l3.877-4.23H785.5
+					c5.799,0,10.5-4.701,10.5-10.5S791.299,127,785.5,127z"/> -->
+					<text transform="matrix(1 0 0 1 715.9849 141.8196)" text-anchor="middle" font-weight="bold" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="13">{{pcs.st}}</text>
+					<text transform="matrix(1 0 0 1 775.9849 141.8196)" text-anchor="middle" font-weight="bold"  font-family="'NanumSquareEB'" font-size="14">{{pcs.chargeSt}}kW</text>
+			</g>
+			<g id="pcs_info">
+				<text transform="matrix(1 0 0 1 816.2344 165.8196)" text-anchor="start" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">DC Power</text>
+				<text transform="matrix(1 0 0 1 950.7344 165.8196)" text-anchor="middle" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">{{pcs.dcpkw}}kW</text>
+				<text transform="matrix(1 0 0 1 816.2344 180.8196)" text-anchor="start" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">DC Current</text>
+				<text transform="matrix(1 0 0 1 950.7344 180.8196)" text-anchor="middle" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">{{pcs.dca}}A</text>
+				<text transform="matrix(1 0 0 1 816.2344 195.8196)" text-anchor="start" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">DC Voltage</text>
+				<text transform="matrix(1 0 0 1 950.7344 195.8196)" text-anchor="middle" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">{{pcs.dcv}}V</text>
+				<text transform="matrix(1 0 0 1 816.2344 210.8196)" text-anchor="start" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">Mode</text>
+				<text transform="matrix(1 0 0 1 950.7344 210.8196)" text-anchor="middle" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">{{mode}}</text>
+				<text transform="matrix(1 0 0 1 817.4844 235.0696)" text-anchor="start" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">rv</text>
+				<text transform="matrix(1 0 0 1 833.7344 235.0696)" text-anchor="middle" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.rst.rv}}</text>
+				<text transform="matrix(1 0 0 1 875.7344 235.0696)" text-anchor="start" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">sv</text>
+				<text transform="matrix(1 0 0 1 891.9844 235.0696)" text-anchor="middle" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.rst.sv}}</text>
+				<text transform="matrix(1 0 0 1 930.4844 235.0696)" text-anchor="start" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">tv</text>
+				<text transform="matrix(1 0 0 1 946.7344 235.0696)" text-anchor="middle" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.rst.tv}}</text>
+				<text transform="matrix(1 0 0 1 817.4844 250.8196)" text-anchor="start" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">ra</text>
+				<text transform="matrix(1 0 0 1 833.7344 250.8196)" text-anchor="middle" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.rst.ra}}</text>
+				<text transform="matrix(1 0 0 1 875.7344 250.8196)" text-anchor="start" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">sa</text>
+				<text transform="matrix(1 0 0 1 891.9844 250.8196)" text-anchor="middle" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.rst.sa}}</text>
+				<text transform="matrix(1 0 0 1 930.4844 250.8196)" text-anchor="start" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">ta</text>
+				<text transform="matrix(1 0 0 1 946.7344 250.8196)" text-anchor="middle" fill="#6A8DF1" font-family="'NanumSquareB'" font-size="11">{{pcs.rst.ta}}</text>
+				<text transform="matrix(1 0 0 1 823.4844 144.5696)" text-anchor="start" fill="#6A8DF1" font-family="'NanumSquareEB'" font-size="14">{{dashBoardData.devrid}}</text>
+				<text transform="matrix(1 0 0 1 884.9844 145.5696)" text-anchor="middle" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="14">{{pcs.tm}} ℃            </text>
+				<text transform="matrix(1 0 0 1 934.9844 145.5696)" text-anchor="middle" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="14">{{pcs.rst.hz}} Hz</text>
+			</g>
+		</g>
+	</g>
+	<g id="pv">
+			<g id="pv_data">
+				<g id="pv_status"></g>
+				<g id="pv_badge"></g>
+				<g id="pv_info">
+					<text transform="matrix(1 0 0 1 869.8184 403.9016)" fill="#6A8DF1" font-family="'NanumSquareEB'" font-size="14"></text>
+					<text transform="matrix(1 0 0 1 983.4844 403.9016)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="14"></text>
+					<text transform="matrix(1 0 0 1 869.8184 426.2356)" fill="#6A8DF1" font-family="'NanumSquareEB'" font-size="14"></text>
+					<text transform="matrix(1 0 0 1 983.4844 426.2356)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="14"></text>
+				</g>
+			</g>
+		<polygon fill="#EDEDED" points="751.092,436.285 776.143,450.747 841.698,412.898 835.372,409.242 816.64,398.432 757.423,432.63
+					"/>
+		<polygon opacity="0.1" fill="#1D1D1B" enable-background="new    " points="757.423,432.63 776.143,443.437 835.372,409.242
+			816.64,398.432 		"/>
+		<polygon fill="#C6C6C6" points="776.146,463.712 841.702,425.855 841.702,412.895 776.146,450.747 		"/>
+		<polygon fill="#B2B2B2" points="776.146,463.712 751.087,449.242 751.087,436.281 776.146,450.747 		"/>
+		<g>
+			<rect x="771.408" y="379.815" fill="#9D9D9C" width="10.634" height="56.079"/>
+			<path fill="#9D9D9C" d="M772.966,433.56c2.077-1.199,5.446-1.199,7.521,0c2.077,1.198,2.077,3.142,0,4.345
+				c-2.075,1.194-5.444,1.194-7.521,0C770.89,436.7,770.89,434.758,772.966,433.56z"/>
+		</g>
+		<g>
+			<rect x="811.421" y="361.382" fill="#9D9D9C" width="10.635" height="51.374"/>
+			<path fill="#9D9D9C" d="M812.979,410.426c2.072-1.204,5.441-1.204,7.519,0c2.077,1.195,2.077,3.139,0,4.343
+				c-2.076,1.196-5.445,1.196-7.519,0C810.898,413.564,810.898,411.621,812.979,410.426z"/>
+		</g>
+		<g>
+			<polygon fill="#C6C6C6" points="740.071,388.95 811.028,347.982 852.723,386.521 781.768,427.49 			"/>
+			<polygon fill="#FFFFFF" points="848.79,386.078 782.089,424.593 744.001,389.392 810.703,350.875 			"/>
+			<polygon fill="#6286EF" points="844.86,385.639 782.413,421.695 747.936,389.828 810.377,353.772 			"/>
+
+				<rect x="807.939" y="355.622" transform="matrix(0.6804 -0.7328 0.7328 0.6804 -20.2754 714.5636)" fill="#FFFFFF" width="2.347" height="49.812"/>
+			<polygon fill="#FFFFFF" points="804.311,411.031 805.906,409.308 769.385,375.427 767.792,377.148 			"/>
+			<polygon fill="#FFFFFF" points="771.477,412.149 835.372,375.165 834.195,373.136 769.605,410.518 			"/>
+			<polygon fill="#FFFFFF" points="757.832,401.787 823.069,363.914 821.893,361.889 756.088,400.085 			"/>
+		</g>
+		<polygon fill="#878787" points="780.908,430.235 851.864,389.27 852.723,386.521 781.768,427.49 		"/>
+		<polygon fill="#878787" points="780.908,430.235 739.209,391.698 740.071,388.95 781.768,427.49 		"/>
+	</g>
+	<g id="battery" ng-click="moveTo('bmsDetail');">
+		<polygon fill="#DDDAE0" points="1212.839,189.831 1144.088,229.526 1144.088,285.652 1212.839,245.954 		"/>
+		<polygon fill="#FFFFFF" points="1212.839,189.831 1195.814,180.19 1127.173,219.485 1144.088,229.526 		"/>
+		<polygon fill="#BAB8BD" points="1127.173,219.485 1127.173,275.82 1144.088,285.652 1144.088,229.526 		"/>
+		<polygon fill="#CCCAD1" points="1139.368,243.98 1130.638,248.903 1130.638,264.407 1139.368,259.342 		"/>
+		<polygon fill="#E0DEE6" points="1139.368,243.98 1132.479,239.856 1123.596,244.725 1130.638,248.903 		"/>
+		<polygon fill="#AAA8AD" points="1123.596,244.725 1123.596,260.313 1130.638,264.407 1130.638,248.903 		"/>
+		<g>
+			<polygon ng-attr-fill="{{batteryCharge.lv00.side}}"   points="1196.486,208.612 1196.486,250.89 1201.621,247.973 1201.621,205.675 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv00.top}}"    points="1202.135,205.675 1198.949,203.812 1193.813,206.74 1197,208.612 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv00.front}}"  points="1193.813,206.74 1193.813,249.087 1197,250.89 1197,208.612 			"/>
+		</g>
+		<g>
+			<polygon ng-attr-fill="{{batteryCharge.lv10.side}}"   points="1191.35,211.693 1191.35,253.971 1196.486,251.055 1196.486,208.756 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv10.top}}"    points="1197,208.756 1193.813,206.892 1188.68,209.82 1191.865,211.693 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv10.front}}"  points="1188.68,209.82 1188.68,252.168 1191.865,253.971 1191.865,211.693 			"/>
+		</g>
+		<g>
+			<polygon ng-attr-fill="{{batteryCharge.lv20.side}}"   points="1186.215,214.776 1186.215,257.051 1191.35,254.137 1191.35,211.838 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv20.top}}"    points="1191.865,211.838 1188.68,209.974 1183.541,212.902 1186.729,214.776 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv20.front}}"  points="1183.541,212.902 1183.541,255.25 1186.729,257.051 1186.729,214.776 			"/>
+		</g>
+		<g>
+			<polygon ng-attr-fill="{{batteryCharge.lv30.side}}"   points="1181.08,217.857 1181.08,260.134 1186.215,257.219 1186.215,214.92 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv30.top}}"    points="1186.729,214.92 1183.541,213.056 1178.406,215.982 1181.594,217.857 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv30.front}}"  points="1178.406,215.982 1178.406,258.33 1181.594,260.134 1181.594,217.857 			"/>
+		</g>
+		<g>
+			<polygon ng-attr-fill="{{batteryCharge.lv40.side}}"   points="1175.943,220.938 1175.943,263.215 1181.08,260.3 1181.08,218 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv40.top}}"    points="1181.594,218 1178.406,216.137 1173.271,219.065 1176.457,220.938 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv40.front}}"  points="1173.271,219.065 1173.271,261.413 1176.457,263.215 1176.457,220.938 			"/>
+		</g>
+		<g>
+			<polygon ng-attr-fill="{{batteryCharge.lv50.side}}"   points="1170.808,224.019 1170.808,266.296 1175.943,263.382 1175.943,221.082 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv50.top}}"    points="1176.457,221.082 1173.271,219.217 1168.135,222.146 1171.32,224.019 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv50.front}}"  points="1168.135,222.146 1168.135,264.494 1171.32,266.296 1171.32,224.019 			"/>
+		</g>
+		<g>
+			<polygon ng-attr-fill="{{batteryCharge.lv60.side}}"   points="1165.672,227.1 1165.672,269.377 1170.808,266.464 1170.808,224.164 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv60.top}}"    points="1171.32,224.164 1168.135,222.299 1163,225.227 1166.188,227.1 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv60.front}}"  points="1163,225.227 1163,267.574 1166.188,269.377 1166.188,227.1 			"/>
+		</g>
+		<g>
+			<polygon ng-attr-fill="{{batteryCharge.lv70.side}}"   points="1160.536,230.182 1160.536,272.46 1165.672,269.545 1165.672,227.245 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv70.top}}"    points="1166.188,227.245 1163,225.381 1157.863,228.308 1161.049,230.182 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv70.front}}"  points="1157.863,228.308 1157.863,270.655 1161.049,272.46 1161.049,230.182 			"/>
+		</g>
+		<g>
+			<polygon ng-attr-fill="{{batteryCharge.lv80.side}}"   points="1155.401,233.265 1155.401,275.54 1160.536,272.625 1160.536,230.326 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv80.top}}"    points="1161.049,230.326 1157.863,228.462 1152.729,231.39 1155.916,233.265 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv80.front}}"  points="1152.729,231.39 1152.729,273.737 1155.916,275.54 1155.916,233.265 			"/>
+		</g>
+		<g>
+			<polygon ng-attr-fill="{{batteryCharge.lv90.side}}"   points="1155.401,233.265 1155.401,275.54 1160.536,272.625 1160.536,230.326 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv90.top}}"    points="1161.049,230.326 1157.863,228.462 1152.729,231.39 1155.916,233.265 			"/>
+			<polygon ng-attr-fill="{{batteryCharge.lv90.front}}"  points="1152.729,231.39 1152.729,273.737 1155.916,275.54 1155.916,233.265 			"/>
+		</g>
+		<text transform="matrix(1 0 0 1 1178.0244 247.4856)" fill="#ffffff" text-anchor="middle" font-family="'Arial-BoldMT'" font-size="12">soc : {{bms.bsc.soc}}%</text>
+		<g id="battery_chart"><!-- 배터리 하단 차트  -->
+			<path fill="#1B233A" d="M1220.237,297.627c0,1.598-1.299,2.893-2.895,2.893h-95.108c-1.596,0-2.894-1.295-2.894-2.893l0,0
+				c0-1.597,1.296-2.892,2.894-2.892h95.108C1218.939,294.736,1220.237,296.031,1220.237,297.627L1220.237,297.627z"/>
+			<rect class="rect1" x="1120" y="296" rx="1" ry="1" ng-attr-width="{{batteryChart.chart1.width}}" height="3" style="fill: #DD4D59"/>
+			<text transform="matrix(1 0 0 1 1120.3633 315.4817)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="11.018">0</text>
+			<text transform="matrix(1 0 0 1 1162.0244 315.4856)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="11.018">50</text>
+			<text transform="matrix(1 0 0 1 1201.6855 315.4817)" fill="#7F90BF" font-family="'Arial-BoldMT'" font-size="11.018">100</text>
+			<text transform="matrix(1 0 0 1 1168.0244 293.4856)" fill="#ffffff" text-anchor="middle" font-family="'Arial-BoldMT'" font-size="11.018">SOH : {{bms.bsc.soh}} %</text>
+		</g>
+
+		<g id="battery_data">
+			<g id="battery_status">
+			</g>
+			<g id="battery_badge">
+				<!-- W  -->
+				<path id ="bmsAlramCnt" ng-attr-fill="#E63544" d="M1152.523,187.95c0,1.104-0.896,2-2,2h-22.838c-1.104,0-2-0.896-2-2v-12.83c0-1.105,0.896-2,2-2h22.838 c1.104,0,2,0.895,2,2V187.95z"/>
+				<text id="thepopup" x="1125" y="170" font-size="13" fill="#E63544" visibility="hidden">Fault
+		    		<set attributeName="visibility" from="hidden" to="visible" begin="bmsAlramCnt.mouseover" end="bmsAlramCnt.mouseout"/>
+		  		</text>
+				<!-- F  -->
+				<path id ="bmsFaultCnt" ng-attr-fill="#EE8F2A" d="M1183.39,187.95c0,1.104-0.896,2-2,2h-22.834c-1.104,0-2.002-0.896-2.002-2v-12.83c0-1.105,0.897-2,2.002-2 h22.837c1.103,0,1.998,0.895,1.998,2L1183.39,187.95L1183.39,187.95z"/>
+				<text id="thepopup" x="1155" y="170" font-size="13" fill="#EE8F2A" visibility="hidden">Warn
+	    			<set attributeName="visibility" from="hidden" to="visible" begin="bmsFaultCnt.mouseover" end="bmsFaultCnt.mouseout"/>
+	  			</text>
+				<!-- A  -->
+				<path id ="bmsWarnCnt" ng-attr-fill="#edc61a" d="M1214.979,187.95c0,1.104-0.896,2-1.998,2h-22.839c-1.104,0-2.001-0.896-2.001-2v-12.83 c0-1.105,0.896-2,2.001-2h22.839c1.103,0,1.998,0.895,1.998,2V187.95z"/>
+				<text id="thepopup" x="1185" y="170" font-size="13" fill="#edc61a" visibility="hidden">Alram
+		    		<set attributeName="visibility" from="hidden" to="visible" begin="bmsWarnCnt.mouseover" end="bmsWarnCnt.mouseout"/>
+		  		</text>
+				<text transform="matrix(1 0 0 1 1138.1523 185.9026)" text-anchor="middle" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12.0017">{{cnt_bms_F}}</text>
+				<text transform="matrix(1 0 0 1 1169.2939 185.9026)" text-anchor="middle" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12.0017">{{cnt_bms_W}}</text>
+				<text transform="matrix(1 0 0 1 1201.6787 185.9026)" text-anchor="middle" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12.0017">{{cnt_bms_A}}</text>
+			</g>
+			<g id="battery_info">
+				<text transform="matrix(1 0 0 1 1236.4844 182.9026)" fill="#6A8DF1" font-family="'NanumSquareEB'" font-size="14">Battery</text>
+				<text transform="matrix(1 0 0 1 1243.2344 205.1526)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">DC Current</text>
+				<text transform="matrix(1 0 0 1 1377.7344 205.1526)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">{{bms.bsc.dca}} A</text>
+				<text transform="matrix(1 0 0 1 1243.2344 221.4026)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">DC Voltage</text>
+				<text transform="matrix(1 0 0 1 1377.7344 221.4026)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">{{bms.bsc.dcv}} V</text>
+				<text transform="matrix(1 0 0 1 1323.2344 238.6526)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11" text-anchor="middle">- - - - Max Location - - - -</text>
+				<text transform="matrix(1 0 0 1 1243.2344 256.3206)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">Max Cell V</text>
+				<text transform="matrix(1 0 0 1 1377.7344 256.3206)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">[ {{bms.max.cellv}} ]</text>
+				<text transform="matrix(1 0 0 1 1243.2344 276.3206)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">Max Module Temp</text>
+				<text transform="matrix(1 0 0 1 1377.7344 276.3206)" fill="#FFFFFF" font-family="'NanumSquareB'" font-size="11">[ {{bms.max.moduletm}} ]</text>
+			</g>
+		</g>
+	</g>
+</g>
+		<linearGradient id="on-gradient" >
+			<stop  stop-color="#2D374C">
+				<animate attributeName="stop-color" values="#FFF9C0;#2D374C" dur="1.5s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+
+
+		<linearGradient id="discharge-left-gradient" >
+			<stop  stop-color="#b73030">
+				<animate attributeName="stop-color" values="#FF7171;#b73030" dur="3s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+		<linearGradient id="discharge-top-gradient" >
+			<stop  stop-color="#ef5656">
+				<animate attributeName="stop-color" values="#FF7171;#ef5656" dur="3s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+		<linearGradient id="discharge-right-gradient" >
+			<stop  stop-color="#d83939">
+				<animate attributeName="stop-color" values="#FF7171;#d83939" dur="3s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+
+
+		<linearGradient id="charge-left-gradient" >
+			<stop  stop-color="#37D94A">
+				<animate attributeName="stop-color" values="#53C14B;#2fba40" dur="3s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+		<linearGradient id="charge-top-gradient" >
+			<stop  stop-color="#54F066">
+				<animate attributeName="stop-color" values="#53C14B;#54F066" dur="3s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+		<linearGradient id="charge-right-gradient" >
+			<stop  stop-color="#2FBA40">
+				<animate attributeName="stop-color" values="#53C14B;#37d94a" dur="3s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+	</defs>
+	<defs>
+		<linearGradient id="grid-gradient" >
+			<stop  stop-color="#0000CD">
+				<animate attributeName="stop-color" values="#FFC0CB; #FFA2AD; #FF98A3; #FF5675" dur="0.9s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+    </defs>
+	<defs>
+		<linearGradient id="battery-gradient" >
+			<stop  stop-color="#FF7A85">
+				<animate attributeName="stop-color" values="#CEFBC9; #86E57F; #47C83E; #37D94A" dur="0.9s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+    </defs>
+    <defs>
+		<linearGradient id="pv-gradient" >
+			<stop  stop-color="#FF7A85">
+				<animate attributeName="stop-color" values="#E6E6FA;#87CEEB; #1E90FF; #0000CD" dur="0.9s" repeatCount="indefinite"></animate>
+				<!--<animate attributeName="stop-color" values="#FAF4C0; #FAED7D; #E5D85C; #FFFF24" dur="0.9s" repeatCount="indefinite"></animate>-->
+			</stop>
+		</linearGradient>
+    </defs>
+	<defs>
+		<linearGradient id="factory-gradient" >
+			<stop  stop-color="#7195FC">
+				<animate attributeName="stop-color" values="#E6749D; #DC6089; #CD426B; #CD2E57; #CD1039" dur="1.5s" repeatCount="indefinite">
+				</animate>
+			</stop>
+		</linearGradient>
+	</defs>
+	<defs>  <!--색깔을 연속적으로 변화시킴-->
+     <linearGradient id="power-gradient" >
+		<stop  stop-color="#7195FC"><!--stop-color의 색깔이 초기값-->
+     		<animate attributeName="stop-color" values="#5ABEFF; #3296FF; #1E82FF; #0A6EFF; #0064FF" dur="1.5s" repeatCount="indefinite"></animate>
+     	</stop>
+     </linearGradient> <!-- dur=설정 시간 안에 values에 있는 색깔을 모두 표현 -->
+    </defs>
+</svg>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1194px" height="585px" viewBox="0 0 1194 585" enable-background="new 0 0 1194 585" xml:space="preserve">
+<g>
+
+
+	<g>
+		<polygon fill="#263151" points="1166,263.5 514,3 29,196 652,494 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon fill="#17213F" points="914.972,202.972 713.287,285.602 370.144,121.464 532.485,56.863 585.182,77.917 586.666,74.202
+			532.488,52.556 365.231,119.114 365.211,119.105 365.201,119.126 163.556,199.369 277.029,253.646 278.754,250.038
+			173.529,199.705 365.084,123.478 708.294,287.647 516.635,366.17 631.18,420.961 632.906,417.352 526.496,366.453
+			914.991,207.288 987.09,236.094 988.574,232.379 		"/>
+	</g>
+</g>
+ <!--<g>
+	<g><polyline fill="#7195FC" points="914.967,201.917 988.944,231.461 986.72,237.034 914.996,208.388 "/></g>
+	<g><polygon fill="#7195FC" points="711.874,290.515 713.074,291.089 914.996,208.388 914.967,201.917 713.262,284.528 "/></g>
+	<g><polygon fill="#7195FC" points="365.047,124.659 711.874,290.515 713.074,291.089 713.262,284.528 366.452,118.68 365.268,118.114"/></g>
+	<g><polygon fill="#7195FC" points="176.027,199.834 365.047,124.659 366.452,118.68 365.268,118.114 161.058,199.331 "/></g>
+	<g><polygon fill="#7195FC" points="161.058,199.331 276.598,254.548 279.185,249.135 176.027,199.834 "/></g>
+</g>
+<g class="charge">
+	<path class="line1" d="M57,110 L60,110 L60,199 L57,199" ng-attr-fill="{{electric.line1.fill}}"/>
+    <path class="line2" d="M57,199 L60,199 L60,328 L57,328" ng-attr-fill="{{electric.line2.fill}}"/>
+    <path class="line3" d="M57,197 L555,197 L555,200 L57,200" ng-attr-fill="{{electric.line3.fill}}"/>
+    <path class="line4" d="M555,197 L740,197 L740,200 L555,200" ng-attr-fill="{{electric.line4.fill}}"/>
+    <path class="line5" d="M737,198.5 L740,198.5 L740,55 L737,55" ng-attr-fill="{{electric.line5.fill}}"/>
+    <path class="line6" d="M737,198.5 L740,198.5 L740,314 L737,314" ng-attr-fill="{{electric.line6.fill}}"/>
+    <path class="line7" d="M737,54 L907,54 L907,57 L737,57" ng-attr-fill="{{electric.line7.fill}}"/>
+    <path class="line8" d="M737,312 L904,312 L904,315 L737,315" ng-attr-fill="{{electric.line8.fill}}"/>
+</g>-->
+<g>
+    <path d="m988,231 L915,202 L915,208 L988,237" ng-attr-fill="{{electric.line1.fill}}"/>
+    <path d="m915,202 L714,285 L714,290 L915,208" ng-attr-fill="{{electric.line2.fill}}"/>
+    <path d="m714,285 L366,118 L366,123 L714,290" ng-attr-fill="{{electric.line3.fill}}"/>
+    <path d="m366,118 L160,200 L163,205 L366,123" ng-attr-fill="{{electric.line4.fill}}"/>
+    <path d="m160,200 L277,254 L277,249 L179,200" ng-attr-fill="{{electric.line5.fill}}"/>
+</g>
+
+
+	<!--transform에서
+	translate(x,y)는 path의 그림을 x,y좌표 만큼 이동 시킴).
+	rotate(각도,x,y)는 path의 도형을 x,y좌표를 중심으로 각도만큼 돌림.
+	scale(x)은 path의 그림을 x만큼 확대or감소 시킴 x,y좌표에도 같이 영향을 줌-->
+
+    <!--animateMotion은 위의 path의 그림을 0,-28에서 0,35로 이동시킴(0,0이 그림의 기준임), 0초에 시직하고 3초동안 지정된 경로를 이동함-->
+
+	<path class="path1" ng-attr-transform="{{electric_flow.flow1.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow1.fill}}">
+		<animateMotion class="path1_1" ng-attr-path="{{electric_flow.flow1.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+	</path>
+
+	<path class="path2" ng-attr-transform="{{electric_flow.flow2.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow2.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow2.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path3" ng-attr-transform="{{electric_flow.flow3.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow3.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow3.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path4" ng-attr-transform="{{electric_flow.flow4.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow4.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow4.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path5" ng-attr-transform="{{electric_flow.flow5.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow5.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow5.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path6" ng-attr-transform="{{electric_flow.flow6.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow6.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow6.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path7" ng-attr-transform="{{electric_flow.flow7.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow7.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow7.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+    <path class="path8" ng-attr-transform="{{electric_flow.flow8.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow8.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow8.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+	<path class="path9" ng-attr-transform="{{electric_flow.flow9.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow9.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow9.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+	<path class="path10" ng-attr-transform="{{electric_flow.flow10.transform}}" d="M30,60 L40,75 L30,90 L50,75 Z" ng-attr-fill="{{electric_flow.flow10.fill}}">
+    	<animateMotion class="path2_1" ng-attr-path="{{electric_flow.flow10.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+    </path>
+
+
+
+    <defs>
+		<linearGradient id="logo-gradient" >
+			<stop  stop-color="#0000CD">
+				<animate attributeName="stop-color" values="#E6E6FA;#87CEEB; #1E90FF; #0000CD" dur="0.9s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+    </defs>
+	<defs>
+		<linearGradient id="logo2-gradient" >
+			<stop  stop-color="#FF7A85">
+				<animate attributeName="stop-color" values="#FFC0CB; #FFA2AD; #FF98A3; #FF5675" dur="0.9s" repeatCount="indefinite"></animate>
+			</stop>
+		</linearGradient>
+    </defs>
+	<defs>
+		<linearGradient id="factory-gradient" >
+			<stop  stop-color="#7195FC">
+				<animate attributeName="stop-color" values="#E6749D; #DC6089; #CD426B; #CD2E57; #CD1039" dur="1.5s" repeatCount="indefinite">
+				</animate>
+			</stop>
+		</linearGradient>
+	</defs>
+	<defs>  <!--색깔을 연속적으로 변화시킴-->
+     <linearGradient id="power-gradient" >
+		<stop  stop-color="#7195FC"><!--stop-color의 색깔이 초기값-->
+     		<animate attributeName="stop-color" values="#5ABEFF; #3296FF; #1E82FF; #0A6EFF; #0064FF" dur="1.5s" repeatCount="indefinite"></animate>
+     	</stop>
+     </linearGradient> <!-- dur=설정 시간 안에 values에 있는 색깔을 모두 표현 -->
+    </defs>
+</svg>

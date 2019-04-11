@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100%" height="auto" viewBox="0 0 544 315" enable-background="new 0 0 544 315" xml:space="preserve">
+<path fill="none" stroke="#ABABAB" stroke-width="7" stroke-linejoin="round" stroke-miterlimit="10" d="M4.202,43.515"/>
+<path name="flowBmsToPcs" fill="{{flowBmsToPcs.fill}}" d="M436.304,259.033H47.409c-1.933,0-3.5-1.567-3.5-3.5V96.676h7v155.357h385.395V259.033z"/>
+<rect name="flowBmsToBattery" x="477.979" y="125.708" fill="{{flowBmsToBattery.fill}}" width="7" height="106.25"/>
+<rect name="flowBatteryToPcs" x="113.374" y="40.015" fill="{{flowBatteryToPcs.fill}}" width="322.501" height="7"/>
+
+<!-- Arrow -->
+<linearGradient id="gridArrow1" gradientUnits="userSpaceOnUse" x1="310.5576" y1="754.2783" x2="310.5576" y2="740.5488" gradientTransform="matrix(0 -1 1 0 -651.835 356.1396)">
+	<stop  offset="0" style="stop-color:#07549F"/>
+	<stop  offset="0.1531" style="stop-color:#0B57A3"/>
+	<stop  offset="0.3331" style="stop-color:#0A66B0"/>
+	<stop  offset="0.5604" style="stop-color:#067DB8"/>
+	<stop  offset="0.7841" style="stop-color:#1596D4"/>
+	<stop  offset="1" style="stop-color:#1FA1DB"/>
+</linearGradient>
+<path name="gridArrow1" fill="{{gridArrow1.fill}}" d="M101.842,46.451c0.703-0.479,0.845-1.26,0.132-1.734l-11.439-7.543
+	c-0.707-0.477-1.82-0.162-1.82,0.701v15.414c0,0.863,1.113,1.18,1.82,0.701L101.842,46.451z">
+	<animateMotion class="path1_1" ng-attr-path="{{gridArrow1.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+</path>
+<linearGradient id="gridArrow2" gradientUnits="userSpaceOnUse" x1="310.5576" y1="1019.7061" x2="310.5576" y2="1005.9766" gradientTransform="matrix(0 -1 1 0 -651.835 356.1396)">
+	<stop  offset="0" style="stop-color:#07549F"/>
+	<stop  offset="0.1531" style="stop-color:#0B57A3"/>
+	<stop  offset="0.3331" style="stop-color:#0A66B0"/>
+	<stop  offset="0.5604" style="stop-color:#067DB8"/>
+	<stop  offset="0.7841" style="stop-color:#1596D4"/>
+	<stop  offset="1" style="stop-color:#1FA1DB"/>
+</linearGradient>
+<path name="gridArrow2" fill="{{gridArrow2.fill}}" d="M367.27,46.451c0.703-0.479,0.845-1.26,0.132-1.734l-11.439-7.543
+	c-0.707-0.477-1.82-0.162-1.82,0.701v15.414c0,0.863,1.113,1.18,1.82,0.701L367.27,46.451z">
+	<animateMotion class="path1_1" ng-attr-path="{{gridArrow2.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+</path>
+<linearGradient id="batteryArrow1" gradientUnits="userSpaceOnUse" x1="66.71" y1="1173.6035" x2="66.71" y2="1159.874" gradientTransform="matrix(0 1 -1 0 1592.4785 -23.1943)">
+	<stop  offset="0" style="stop-color:#15783D"/>
+	<stop  offset="0.2696" style="stop-color:#109C49"/>
+	<stop  offset="0.5208" style="stop-color:#27B14B"/>
+	<stop  offset="0.6841" style="stop-color:#43B649"/>
+	<stop  offset="0.8449" style="stop-color:#4FB648"/>
+	<stop  offset="1" style="stop-color:#51B748"/>
+</linearGradient>
+<path fill="{{batteryArrow1.fill}}" d="M419.477,42.646c-0.703,0.479-0.845,1.26-0.132,1.734l11.439,7.543
+	c0.707,0.477,1.82,0.162,1.82-0.701V35.809c0-0.863-1.113-1.18-1.82-0.701L419.477,42.646z">
+	<animateMotion class="path1_1" ng-attr-path="{{batteryArrow1.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+</path>
+<linearGradient id="batteryArrow2" gradientUnits="userSpaceOnUse" x1="66.71" y1="1476.1045" x2="66.71" y2="1462.375" gradientTransform="matrix(0 1 -1 0 1592.4785 -23.1943)">
+	<stop  offset="0" style="stop-color:#15783D"/>
+	<stop  offset="0.2696" style="stop-color:#109C49"/>
+	<stop  offset="0.5208" style="stop-color:#27B14B"/>
+	<stop  offset="0.6841" style="stop-color:#43B649"/>
+	<stop  offset="0.8449" style="stop-color:#4FB648"/>
+	<stop  offset="1" style="stop-color:#51B748"/>
+</linearGradient>
+<path fill="{{batteryArrow2.fill}}" d="M116.976,42.646c-0.703,0.479-0.845,1.26-0.132,1.734l11.439,7.543
+	c0.707,0.477,1.82,0.162,1.82-0.701V35.809c0-0.863-1.113-1.18-1.82-0.701L116.976,42.646z">
+	<animateMotion class="path1_1" ng-attr-path="{{batteryArrow2.path}}" begin="0s" dur="3s" repeatCount="indefinite" />
+</path>
+
+<!-- BMS -->
+<path name="bms" fill="{{bmsOn.fill}}" d="M526.655,273.506c0,3.08-2.521,5.601-5.601,5.601h-79.15c-3.08,0-5.601-2.521-5.601-5.601v-35.948
+	c0-3.079,2.521-5.6,5.601-5.6h79.15c3.08,0,5.601,2.521,5.601,5.6V273.506z"/>
+<text transform="matrix(1 0 0 1 456.7344 264.3281)" fill="#FFFFFF" font-weight="1000" font-family="'NanumSquareEB'" font-size="24" letter-spacing="-1">BMS</text>
+
+<!-- PCS -->
+<g name="pcs">
+	<path fill="#FFFFFF" d="M82.128,20.783H13.202c-2.095,0-3.8,1.705-3.8,3.8v35.263c0,2.095,1.705,3.8,3.8,3.8h68.926
+		c2.096,0,3.8-1.705,3.8-3.8V24.583C85.928,22.487,84.224,20.783,82.128,20.783z"/>
+	<path fill="#525252" d="M82.128,15.583H13.202c-4.962,0-9,4.038-9,9v35.263c0,4.962,4.038,9,9,9h68.926c4.963,0,9-4.038,9-9V24.583
+		C91.128,19.62,87.091,15.583,82.128,15.583z M85.928,59.846c0,2.095-1.705,3.8-3.8,3.8H13.202c-2.095,0-3.8-1.705-3.8-3.8V24.583
+		c0-2.095,1.705-3.8,3.8-3.8h68.926c2.096,0,3.8,1.705,3.8,3.8V59.846z"/>
+	<path fill="#525252" d="M72.725,46.43H59.853c-1.325,0-2.4-1.075-2.4-2.4s1.075-2.4,2.4-2.4h12.872c1.327,0,2.4,1.075,2.4,2.4
+		S74.052,46.43,72.725,46.43z"/>
+	<path fill="#525252" d="M72.725,53.733H59.853c-1.325,0-2.4-1.075-2.4-2.4c0-1.327,1.075-2.4,2.4-2.4h12.872
+		c1.327,0,2.4,1.073,2.4,2.4C75.125,52.658,74.052,53.733,72.725,53.733z"/>
+	<path fill="#525252" d="M40.763,56.055c-0.528,0-1.06-0.173-1.503-0.531c-1.033-0.831-1.195-2.342-0.364-3.375l18.426-22.881
+		c0.832-1.031,2.342-1.195,3.375-0.363c1.031,0.832,1.195,2.342,0.364,3.374L42.634,55.16
+		C42.159,55.749,41.464,56.055,40.763,56.055z"/>
+	<path fill="#525252" d="M33.389,40.203c-1.394,0-3.258-0.533-5.212-2.612c-0.709-0.753-1.362-1.155-1.803-1.094
+		c-0.659,0.089-1.433,1.087-1.645,1.489c-0.617,1.172-2.067,1.624-3.242,1.005c-1.172-0.617-1.622-2.069-1.005-3.242
+		c0.192-0.364,1.967-3.566,5.249-4.01c1.433-0.194,3.626,0.095,5.944,2.564c0.708,0.753,1.363,1.158,1.8,1.094
+		c0.661-0.089,1.436-1.089,1.648-1.491c0.617-1.172,2.07-1.622,3.242-1.003s1.622,2.071,1.003,3.243
+		c-0.192,0.364-1.969,3.565-5.25,4.008C33.894,40.185,33.65,40.203,33.389,40.203z"/>
+	<path fill="#525252" d="M34.063,48.386c-1.394,0-3.259-0.531-5.214-2.614c-0.703-0.75-1.36-1.153-1.795-1.094
+		c-0.633,0.08-1.394,1.022-1.661,1.508c-0.634,1.156-2.086,1.594-3.247,0.969c-1.159-0.625-1.604-2.058-0.991-3.224
+		c0.192-0.364,1.967-3.565,5.249-4.009c1.433-0.192,3.625,0.095,5.945,2.564c0.705,0.75,1.354,1.152,1.793,1.096
+		c0.633-0.08,1.396-1.023,1.663-1.51c0.634-1.154,2.084-1.594,3.247-0.967c1.159,0.623,1.604,2.058,0.99,3.223
+		c-0.192,0.363-1.969,3.566-5.25,4.009C34.567,48.367,34.323,48.386,34.063,48.386z"/>
+	<path fill="#1C95D3" d="M25.831,7.65c-1.247,0-2.267,1.02-2.267,2.267v5.666h10.461V9.917c0-1.247-1.02-2.267-2.269-2.267H25.831z"
+		/>
+	<path fill="#1C95D3" d="M63.575,7.65c-1.247,0-2.268,1.02-2.268,2.267v5.666h10.459V9.917c0-1.247-1.02-2.267-2.267-2.267H63.575z"
+		/>
+</g>
+<text transform="matrix(1 0 0 1 30.7754 89.0234)" fill="#535353" font-weight="1000" font-family="'NanumSquareEB'" font-size="14">17:68’ 25”</text>
+<g name="pcs_timer">
+	<circle fill="#2095D3" cx="12.757" cy="85.261" r="1.312"/>
+	<path fill="#2095D3" d="M12.757,85.901c-0.039,0-0.08-0.004-0.119-0.011l-5.242-0.984c-0.348-0.064-0.576-0.398-0.512-0.746
+		s0.402-0.577,0.746-0.512l5.244,0.983c0.348,0.064,0.576,0.399,0.51,0.747C13.327,85.687,13.059,85.901,12.757,85.901z"/>
+	<path fill="#2095D3" d="M12.757,85.9c-0.245,0-0.479-0.141-0.586-0.379c-0.144-0.322,0.002-0.701,0.324-0.846l6.226-2.775
+		c0.323-0.144,0.7,0.001,0.846,0.323c0.144,0.323-0.001,0.701-0.323,0.846l-6.226,2.776C12.932,85.883,12.843,85.9,12.757,85.9z"/>
+	<g>
+		<path fill="#535353" d="M1.997,85.029c-0.017,0-0.033,0-0.05-0.002c-0.353-0.025-0.616-0.333-0.59-0.686
+			c0.44-5.886,5.414-10.496,11.323-10.496c5.189,0,9.712,3.506,11,8.526c0.088,0.343-0.119,0.69-0.461,0.778
+			c-0.344,0.087-0.691-0.119-0.779-0.461c-1.143-4.454-5.154-7.563-9.76-7.563c-5.242,0-9.655,4.09-10.047,9.312
+			C2.608,84.773,2.329,85.029,1.997,85.029z"/>
+		<path fill="#535353" d="M1.671,85.955c-0.041,0-0.082-0.004-0.123-0.013c-0.225-0.045-0.407-0.205-0.481-0.421l-1.032-3.026
+			c-0.113-0.335,0.064-0.698,0.399-0.813c0.337-0.115,0.698,0.064,0.813,0.398l0.674,1.979l1.377-1.573
+			c0.231-0.267,0.637-0.294,0.901-0.061c0.267,0.231,0.294,0.637,0.062,0.902l-2.105,2.406C2.031,85.876,1.854,85.955,1.671,85.955z
+			"/>
+	</g>
+	<g>
+		<path fill="#535353" d="M12.831,96.676c-5.188,0-9.711-3.506-11-8.526c-0.088-0.343,0.119-0.69,0.461-0.778
+			c0.344-0.089,0.691,0.119,0.779,0.461c1.143,4.454,5.155,7.563,9.76,7.563c5.242,0,9.655-4.09,10.047-9.312
+			c0.026-0.354,0.338-0.617,0.688-0.59c0.354,0.025,0.616,0.333,0.59,0.686C23.712,92.065,18.74,96.676,12.831,96.676z"/>
+		<path fill="#535353" d="M24.872,88.875c-0.267,0-0.516-0.167-0.605-0.434l-0.676-1.979l-1.375,1.573
+			c-0.233,0.267-0.637,0.294-0.902,0.061c-0.268-0.232-0.294-0.637-0.061-0.902l2.104-2.406c0.151-0.174,0.383-0.25,0.606-0.207
+			c0.224,0.045,0.406,0.205,0.48,0.421l1.032,3.026c0.114,0.335-0.063,0.698-0.399,0.813C25.009,88.863,24.939,88.875,24.872,88.875
+			z"/>
+	</g>
+</g>
+<g name="battery_timer">
+	<path fill="#2095D3" d="M452.776,89.661c-0.004,0-0.007,0-0.011,0c-0.238-0.004-0.45-0.16-0.525-0.39l-1.135-3.471l-0.54,1.086
+		c-0.097,0.189-0.29,0.312-0.505,0.312h-4.906c-0.311,0-0.563-0.252-0.563-0.563c0-0.311,0.252-0.563,0.563-0.563h4.561l0.997-2
+		c0.103-0.205,0.313-0.328,0.546-0.312c0.228,0.016,0.422,0.17,0.492,0.387l1.053,3.22l1.776-4.922
+		c0.079-0.222,0.288-0.371,0.522-0.373c0.002,0,0.005,0,0.007,0c0.231,0,0.44,0.143,0.524,0.36l1.395,3.609l0.725-1.266
+		c0.094-0.162,0.26-0.269,0.447-0.281c0.189-0.017,0.365,0.065,0.48,0.211l1.084,1.365h5.104c0.313,0,0.563,0.252,0.563,0.563
+		s-0.252,0.563-0.563,0.563h-5.377c-0.172,0-0.334-0.078-0.439-0.214l-0.736-0.926l-0.899,1.568
+		c-0.106,0.188-0.315,0.299-0.53,0.281c-0.217-0.017-0.404-0.156-0.481-0.357l-1.276-3.307l-1.82,5.045
+		C453.223,89.511,453.012,89.661,452.776,89.661z"/>
+	<path fill="#535353" d="M455.01,95.648c-0.1,0-0.201-0.026-0.289-0.079c-0.51-0.308-12.467-7.591-12.467-14.563
+		c0-4.381,3.354-6.998,6.596-6.998c2.515,0,4.713,1.428,6.16,3.959c1.449-2.531,3.647-3.959,6.16-3.959
+		c3.242,0,6.598,2.617,6.598,6.998c0,6.973-11.957,14.256-12.467,14.563C455.213,95.622,455.111,95.648,455.01,95.648z
+		 M448.85,75.132c-2.688,0-5.469,2.197-5.469,5.873c0,5.777,9.803,12.258,11.629,13.416c1.828-1.158,11.631-7.639,11.631-13.416
+		c0-3.676-2.781-5.873-5.471-5.873c-2.367,0-4.426,1.57-5.646,4.309c-0.091,0.201-0.291,0.332-0.515,0.332
+		c-0.221,0-0.422-0.131-0.514-0.332C453.276,76.704,451.219,75.132,448.85,75.132z"/>
+</g>
+<text transform="matrix(1 0 0 1 474.2305 89.6602)" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="14">{{ bms_data.bsc.soh }} %</text>
+<text transform="matrix(1 0 0 1 474.2305 118.1426)" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="14"> 회</text>
+<g name="battery_session">
+	<g>
+		<g>
+			<path fill="#535353" d="M462.125,118.118h-11.371c-0.697,0-1.265-0.568-1.265-1.267v-0.646h-0.129
+				c-0.535,0-0.972-0.436-0.972-0.97v-3.212c0-0.534,0.437-0.971,0.972-0.971h0.129v-0.646c0-0.697,0.565-1.266,1.265-1.266h11.371
+				c0.698,0,1.266,0.567,1.266,1.266v6.443C463.391,117.548,462.824,118.118,462.125,118.118z M449.361,111.942
+				c-0.045,0-0.082,0.038-0.082,0.082v3.212c0,0.044,0.037,0.08,0.082,0.08h0.572c0.246,0,0.445,0.199,0.445,0.445v1.09
+				c0,0.207,0.168,0.376,0.375,0.376h11.371c0.208,0,0.376-0.169,0.376-0.376v-6.443c0-0.207-0.168-0.376-0.376-0.376h-11.371
+				c-0.207,0-0.375,0.169-0.375,0.376v1.091c0,0.245-0.199,0.443-0.445,0.443H449.361z"/>
+		</g>
+		<g>
+			<path fill="#2095D3" d="M456.182,116.25c0,0.104-0.086,0.188-0.188,0.188h-1.844c-0.104,0-0.188-0.085-0.188-0.188v-5.238
+				c0-0.104,0.084-0.188,0.188-0.188h1.844c0.104,0,0.188,0.086,0.188,0.188V116.25z"/>
+		</g>
+		<g>
+			<path fill="#2095D3" d="M461.704,116.25c0,0.104-0.085,0.188-0.188,0.188h-1.844c-0.104,0-0.188-0.085-0.188-0.188v-5.238
+				c0-0.104,0.085-0.188,0.188-0.188h1.844c0.104,0,0.188,0.086,0.188,0.188V116.25z"/>
+		</g>
+		<g>
+			<path fill="#2095D3" d="M458.943,116.25c0,0.104-0.085,0.188-0.188,0.188h-1.845c-0.104,0-0.188-0.085-0.188-0.188v-5.238
+				c0-0.104,0.084-0.188,0.188-0.188h1.845c0.104,0,0.188,0.086,0.188,0.188V116.25z"/>
+		</g>
+		<g>
+			<path fill="#2095D3" d="M453.42,116.25c0,0.104-0.086,0.188-0.188,0.188h-1.845c-0.104,0-0.188-0.085-0.188-0.188v-5.238
+				c0-0.104,0.085-0.188,0.188-0.188h1.845c0.104,0,0.188,0.086,0.188,0.188V116.25z"/>
+		</g>
+	</g>
+	<g>
+		<path fill="#535353" d="M455.715,125.708c-5.537,0-10.346-3.745-11.691-9.109c-0.092-0.362,0.13-0.731,0.494-0.824
+			c0.361-0.089,0.731,0.131,0.824,0.494c1.193,4.759,5.459,8.081,10.373,8.081c5.896,0,10.693-4.797,10.693-10.693
+			c0-5.897-4.798-10.694-10.693-10.694c-5.564,0-10.25,4.342-10.664,9.884c-0.029,0.374-0.36,0.654-0.729,0.627
+			c-0.374-0.027-0.654-0.354-0.627-0.729c0.469-6.247,5.748-11.142,12.021-11.142c6.646,0,12.053,5.406,12.053,12.054
+			C467.768,120.303,462.36,125.708,455.715,125.708z"/>
+		<path fill="#535353" d="M444.03,114.456c-0.044,0-0.088-0.005-0.132-0.014c-0.237-0.048-0.434-0.218-0.512-0.446l-1.096-3.214
+			c-0.121-0.354,0.068-0.741,0.424-0.862c0.356-0.121,0.741,0.069,0.862,0.424l0.716,2.102l1.461-1.671
+			c0.248-0.281,0.676-0.313,0.959-0.063c0.282,0.247,0.312,0.676,0.063,0.958l-2.235,2.556
+			C444.41,114.373,444.223,114.456,444.03,114.456z"/>
+	</g>
+</g>
+<!--
+<path name="pcsAlrams" fill="#8AC641" ng-if="bmsAlrams_length > 0" d="M540.355,247.006c0,0.508-0.412,0.92-0.92,0.92h-9.951c-0.508,0-0.92-0.412-0.92-0.92v-9.951
+	c0-0.508,0.412-0.92,0.92-0.92h9.951c0.508,0,0.92,0.412,0.92,0.92V247.006z"/>
+<path name="pcsWarnings" fill="#FDDE26" ng-if="bmsWarnings_length > 0" d="M540.355,260.506c0,0.51-0.412,0.92-0.92,0.92h-9.951c-0.508,0-0.92-0.41-0.92-0.92v-9.949
+	c0-0.508,0.412-0.92,0.92-0.92h9.951c0.508,0,0.92,0.412,0.92,0.92V260.506z"/>
+<path name="pcsFaluts" fill="#E24E4E" ng-if="bmsFaluts_length > 0"  d="M540.355,274.01c0,0.508-0.412,0.92-0.92,0.92h-9.951c-0.508,0-0.92-0.412-0.92-0.92v-9.953
+	c0-0.508,0.412-0.92,0.92-0.92h9.951c0.508,0,0.92,0.412,0.92,0.92V274.01z"/>
+<g name="pcsAlrams" ng-if="bmsAlrams_length > 0">
+	<text transform="matrix(1 0 0 1 530.7402 246.0527)" fill="#FFFFFF"  font-family="'NanumSquareEB'" font-size="12">{{bmsAlrams_length}}</text>
+</g>
+<g name="pcsWarnings" ng-if="bmsWarnings_length > 0">
+	<text transform="matrix(1 0 0 1 530.7402 259.5547)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12">{{bmsWarnings_length}}</text>
+</g>
+<g name="pcsFaluts" ng-if="bmsFaluts_length > 0">
+	<text transform="matrix(1 0 0 1 530.7402 273.0566)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12">{{bmsFaluts_length}}</text>
+</g>
+-->
+<path fill="#8AC641" ng-if="pcsAlrams_length > 0" d="M107.929,33.689c0,0.508-0.412,0.92-0.92,0.92h-9.951c-0.508,0-0.92-0.412-0.92-0.92v-9.951
+	c0-0.508,0.412-0.92,0.92-0.92h9.951c0.508,0,0.92,0.412,0.92,0.92V33.689z"/>
+<path fill="#FDDE26" ng-if="pcsWarnings_length > 0" d="M107.929,47.19c0,0.509-0.412,0.92-0.92,0.92h-9.951c-0.508,0-0.92-0.411-0.92-0.92v-9.951
+	c0-0.508,0.412-0.92,0.92-0.92h9.951c0.508,0,0.92,0.412,0.92,0.92V47.19z"/>
+<path fill="#E24E4E" ng-if="pcsFaluts_length > 0" d="M107.929,60.693c0,0.508-0.412,0.92-0.92,0.92h-9.951c-0.508,0-0.92-0.412-0.92-0.92v-9.952
+	c0-0.508,0.412-0.92,0.92-0.92h9.951c0.508,0,0.92,0.412,0.92,0.92V60.693z"/>
+<g ng-if="pcsAlrams_length > 0">
+	<text transform="matrix(1 0 0 1 98.3135 32.7363)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12">{{pcsAlrams_length}}</text>
+</g>
+<g ng-if="pcsWarnings_length > 0">
+	<text transform="matrix(1 0 0 1 98.3135 46.2383)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12">{{pcsWarnings_length}}</text>
+</g>
+<g ng-if="pcsFaluts_length > 0">
+	<text transform="matrix(1 0 0 1 98.3135 59.7402)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12">{{pcsFaluts_length}}</text>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="155.4287" y1="71.6416" x2="155.4287" y2="146.6426">
+	<stop  offset="0" style="stop-color:#EBF7F8"/>
+	<stop  offset="1" style="stop-color:#B3E2F2"/>
+</linearGradient>
+<rect x="117.929" y="71.642" fill="url(#SVGID_1_)" width="75" height="75.001"/>
+<text transform="matrix(1 0 0 1 125.4287 90.6313)" fill="#858585" font-weight="500" font-family="'NanumSquareEB'" font-size="12">{{ts.AVAILABILITY}}</text>
+<text transform="matrix(1 0 0 1 139.5889 119.5308)" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="18">{{designkw*bms_data.bsc.soc/100}}</text>
+<g>
+	<text transform="matrix(1 0 0 1 161.6084 136.2368)" fill="#535353" font-weight="500" font-family="'NanumSquareB'" font-size="12">kWh</text>
+</g>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="392.4287" y1="71.6416" x2="392.4287" y2="146.6406">
+	<stop  offset="0" style="stop-color:#EBF7F8"/>
+	<stop  offset="1" style="stop-color:#B3E2F2"/>
+</linearGradient>
+<rect x="354.929" y="71.642" fill="url(#SVGID_2_)" width="75" height="74.999"/>
+<text transform="matrix(1 0 0 1 362.4287 90.6309)" fill="#858585" font-weight="500" font-family="'NanumSquareEB'" font-size="12">{{ts.STATUS}}</text>
+<text transform="matrix(1 0 0 1 379.082 119.5303)" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="18">{{bms_data.strMode | uppercase}}</text>
+<g>
+	<text transform="matrix(1 0 0 1 405.1963 136.2363)" fill="#535353" font-weight="500" font-family="'NanumSquareB'" font-size="12"></text>
+</g>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="234.4287" y1="71.6416" x2="234.4287" y2="146.6426">
+	<stop  offset="0" style="stop-color:#EBF7F8"/>
+	<stop  offset="1" style="stop-color:#B3E2F2"/>
+</linearGradient>
+<rect x="196.929" y="71.642" fill="url(#SVGID_3_)" width="75" height="75.001"/>
+<text transform="matrix(1 0 0 1 204.4287 90.6313)" fill="#858585" font-weight="500" font-family="'NanumSquareEB'" font-size="12">{{ts.CURRENT}}</text>
+<text transform="matrix(1 0 0 1 215.9521 119.5308)" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="18">{{ bms_data.bsc.dca }}</text>
+<g>
+	<text transform="matrix(1 0 0 1 256.9521 136.2368)" fill="#535353" font-weight="500" font-family="'NanumSquareB'" font-size="12">A</text>
+</g>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="313.4287" y1="71.6416" x2="313.4287" y2="146.6426">
+	<stop  offset="0" style="stop-color:#EBF7F8"/>
+	<stop  offset="1" style="stop-color:#B3E2F2"/>
+</linearGradient>
+<rect x="275.929" y="71.642" fill="url(#SVGID_4_)" width="75" height="75.001"/>
+<text transform="matrix(1 0 0 1 283.4287 90.6313)" fill="#858585" font-weight="500" font-family="'NanumSquareEB'" font-size="12">{{ts.VOLTAGE}}</text>
+<text transform="matrix(1 0 0 1 294.9521 119.5308)" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="18">{{    bms_data.bsc.dcv  }}</text>
+<g>
+	<text transform="matrix(1 0 0 1 335.9521 136.2368)" fill="#535353" font-weight="500" font-family="'NanumSquareB'" font-size="12">V</text>
+</g>
+<rect x="248.946" y="150.641" fill="#F3F3F3" width="180.982" height="95.002"/>
+<text transform="matrix(1 0 0 1 270.2314 177.1426)" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="14" glyph-orientation-vertical="0" writing-mode="tb">{{ts.MAXIMUM}}</text>
+<text transform="matrix(1 0 0 1 293.793 170.1777)"><tspan x="0" y="0" fill="#858585" font-weight="500" font-family="'NanumSquareR'" font-size="11">{{ts.CELL}} {{ts.VOLTAGE}}</tspan><tspan x="0" y="21" fill="#858585" font-weight="500" font-family="'NanumSquareR'" font-size="11">{{ts.LOCATION}} ({{ts.RACK}} - {{ts.MODULE}})</tspan><tspan x="0" y="42" fill="#858585" font-weight="500" font-family="'NanumSquareR'" font-size="11">{{ts.MODULE}} {{ts.TEMP}}</tspan><tspan x="0" y="63" fill="#858585" font-weight="500" font-family="'NanumSquareR'" font-size="11">{{ts.LOCATION}} ({{ts.RACK}} - {{ts.MODULE}})</tspan></text>
+<g>
+	<text transform="matrix(1 0 0 1 388.9004 171.8125)"><tspan x="0" y="0" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="12">{{ bms_data.max.cellv }}</tspan><tspan x="-2.377" y="21" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="12"> {{bms_data.max.rackvno}} - {{bms_data.max.modulevno}}</tspan><tspan x="1.607" y="42" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="12">{{bms_data.max.moduletm}} ℃</tspan><tspan x="-4.776" y="63" fill="#535353" font-weight="500" font-family="'NanumSquareEB'" font-size="12"> {{bms_data.max.racktmno}} - {{bms_data.max.moduletmno}}</tspan></text>
+<rect x="120" y="303.5" fill="#82D1E6" width="35" height="7"/>
+<text transform="matrix(1 0 0 1 42.0664 311.4932)" fill="#010101" font-weight="500" font-family="'NanumSquareB'" font-size="12">DC</text>
+<rect name="dc_line" x="0" y="303.5" fill="#FFC82C"  width="35" height="7"/>
+<text transform="matrix(1 0 0 1 162.0664 311.4932)" fill="#010101" font-weight="500" font-family="'NanumSquareB'" font-size="12">{{ts.COMMUNICATION}}</text>
+<rect x="225" y="303.5" fill="#ACACAC" width="35" height="7"/>
+<text transform="matrix(1 0 0 1 267.0664 311.4932)" fill="#010101" font-weight="500" font-family="'NanumSquareB'" font-size="12">IDLE</text>
+
+<!-- battery -->
+<g name="battery">
+	<g>
+		<path fill="#FFFFFF" d="M515.473,22.157h-65.901c-1.199,0-2.177,0.978-2.177,2.18v6.32c0,1.422-1.151,2.574-2.575,2.574h-3.322
+			c-0.256,0-0.472,0.217-0.472,0.473v18.608c0,0.257,0.215,0.473,0.472,0.473h3.322c1.424,0,2.575,1.152,2.575,2.575v6.321
+			c0,1.199,0.978,2.179,2.177,2.179h65.901c1.203,0,2.182-0.979,2.182-2.179V24.335C517.654,23.133,516.678,22.157,515.473,22.157z"
+			/>
+		<path fill="#535353" d="M515.473,17.006h-65.901c-4.039,0-7.325,3.288-7.325,7.329v3.745h-0.749c-3.101,0-5.622,2.521-5.622,5.622
+			v18.608c0,3.101,2.521,5.622,5.622,5.622h0.749v3.747c0,4.04,3.286,7.326,7.325,7.326h65.901c4.041,0,7.328-3.286,7.328-7.326
+			V24.334C522.803,20.295,519.514,17.006,515.473,17.006z M517.654,61.681c0,1.199-0.979,2.179-2.182,2.179h-65.901
+			c-1.199,0-2.177-0.979-2.177-2.179V55.36c0-1.423-1.151-2.575-2.575-2.575h-3.322c-0.256,0-0.472-0.216-0.472-0.473V33.704
+			c0-0.256,0.215-0.473,0.472-0.473h3.322c1.424,0,2.575-1.152,2.575-2.574v-6.32c0-1.202,0.978-2.18,2.177-2.18h65.901
+			c1.203,0,2.182,0.978,2.182,2.18V61.681z"/>
+		<path name="battery_panel" fill="#BBBBBB" d="M513.059,58.145c0,0.625-0.51,1.135-1.133,1.135h-59.16c-0.625,0-1.135-0.51-1.135-1.135V27.871
+			c0-0.623,0.51-1.134,1.135-1.134h59.16c0.623,0,1.133,0.511,1.133,1.134V58.145z"/>
+		<path fill="#8AC641" ng-if="bmsAlrams_length > 0"d="M540.355,34.48c0,0.509-0.412,0.92-0.92,0.92h-9.951c-0.508,0-0.92-0.411-0.92-0.92v-9.951
+			c0-0.508,0.412-0.92,0.92-0.92h9.951c0.508,0,0.92,0.412,0.92,0.92V34.48z"/>
+		<path fill="#FDDE26" ng-if="bmsWarnings_length > 0" d="M540.355,47.981c0,0.51-0.412,0.92-0.92,0.92h-9.951c-0.508,0-0.92-0.41-0.92-0.92v-9.95
+			c0-0.508,0.412-0.92,0.92-0.92h9.951c0.508,0,0.92,0.412,0.92,0.92V47.981z"/>
+		<path fill="#E24E4E" ng-if="bmsFaluts_length > 0"d="M540.355,61.484c0,0.508-0.412,0.92-0.92,0.92h-9.951c-0.508,0-0.92-0.412-0.92-0.92v-9.952
+			c0-0.508,0.412-0.92,0.92-0.92h9.951c0.508,0,0.92,0.412,0.92,0.92V61.484z"/>
+		<g name="battery_charge">
+			<defs>
+				<path id="SVGID_5_" d="M513.059,58.145c0,0.625-0.51,1.135-1.133,1.135h-59.16c-0.625,0-1.135-0.51-1.135-1.135V27.871
+					c0-0.623,0.51-1.134,1.135-1.134h59.16c0.623,0,1.133,0.511,1.133,1.134V58.145z"/>
+			</defs>
+			<clipPath id="SVGID_6_">
+				<use xlink:href="#SVGID_5_"  overflow="visible"/>
+			</clipPath>
+			<g clip-path="url(#SVGID_6_)">
+				<path fill="#BABABA" d="M451.631,26.737h36.297V59.28h-36.297V26.737z"/>
+			</g>
+		</g>
+		<path fill="{{soc_backColor}}" d="M513.059,58.145c0,0.625-0.51,1.135-1.133,1.135h-{{soc_svg}}c-0.625,0-1.135-0.51-1.135-1.135V27.871
+					c0-0.623,0.51-1.134,1.135-1.134h{{soc_svg}}c0.623,0,1.133,0.511,1.133,1.134V58.145z"/>
+	</g>
+	<g name="bmsAlrams" ng-if="bmsAlrams_length > 0">
+		<text transform="matrix(1 0 0 1 530.7402 33.5273)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12">{{bmsAlrams_length}}</text>
+	</g>
+	<g name="bmsWarnings" ng-if="bmsWarnings_length > 0">
+		<text transform="matrix(1 0 0 1 530.7402 47.0293)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12">{{bmsWarnings_length}}</text>
+	</g>
+	<g name="bmsFaults" ng-if="bmsFaluts_length > 0">
+		<text transform="matrix(1 0 0 1 530.7402 60.5313)" fill="#FFFFFF" font-family="'NanumSquareEB'" font-size="12">{{bmsFaluts_length}}</text>
+	</g>
+	<text transform="matrix(1 0 0 1 482.6851 50.3242)" fill="#FFFFFF" font-weight="1000" font-family="'NanumSquareEB'" font-size="18">
+	<tspan text-anchor="middle">{{bms_data.bsc.soc}}%</tspan>
+	</text>
+</g>
+
+
+</svg>
